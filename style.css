@@ -1,0 +1,263 @@
+/* 
+
+Styles:		blankenshipoffice.com/
+
+version: 	1.0 — 9/17/18 Update
+author: 	Joshua Blankenship
+email: 		hello@blankenshipoffice.com
+website: 	http://blankenshipoffice.com
+          
+
+/* FOUNDATION */
+
+	*, html, body, div, span, object, iframe,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li, img, figure, figcaption,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box;
+		-webkit-font-smoothing: antialiased; 
+		font-smoothing: antialiased;
+		margin: 0;
+		padding: 0;
+		outline: none;
+		}
+
+	@keyframes hello {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+    	font-size: 16px;
+	}
+
+	@media(min-width:700px) {
+	    html {
+	        font-size: 16px
+	    }
+	}
+
+	@media(min-width:1200px) {
+	    html {
+	        font-size: 17px
+	    }
+	}
+
+	@media(min-width:1400px) {
+	    html {
+	        font-size: 18px
+	    }
+	}
+
+	body {
+		line-height: 1.5;
+		overflow-x: hidden;
+		text-align: center;
+	}
+
+	.logo {}
+
+/* TYPOGRAPHY */
+
+
+	h1 {
+	    animation: hello 2s;
+		color: #222;
+		display: block;
+		font: 700 2vw/2.5vw "neue-haas-grotesk-display", sans-serif;
+		text-align: left;
+		padding: 5vh 5vw;
+	}
+
+	h1 strong {
+		display: block;
+		font: 800 4vw/4vw "briller", "opake", "fleisch-wurst", sans-serif;
+		text-transform: uppercase;
+	}
+
+	h2 {
+		color: #222;
+		font: 800 1.5vw/2vw "briller", "fleisch-wurst", sans-serif;
+		text-transform: uppercase;
+		padding-bottom: 2vw;
+	}
+
+	a { 
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	h1 a,
+	h1 a:visited { color: #222; }
+
+	p {
+		color: #444;
+		font: 400 1.3vw/1.6vw "nimbus-sans", sans-serif;
+		margin-bottom: 2vmax;
+		text-align: justify;
+	}
+
+	.arashikage {
+		font-size: 125%;
+		line-height: 1.8vw;
+	}
+
+	header {
+		background: #fff;
+		margin: 0 auto;
+		padding: 0;
+		width: 100vw;
+	}
+
+  	footer {
+  		margin: 0;
+  		padding: 0;
+   }
+
+   footer p {
+   		text-align: center;
+   }
+   
+	footer.contact { 
+		background: #fff;
+		padding: 7% 0;
+	}
+
+	footer span { display: block; }
+
+	img { 
+		width: 100%; 
+	}
+
+	.btn {
+		animation: hello 5s;
+		background-image: linear-gradient(to bottom, #81b2df 0%, #3069ae 100%);
+		border: 0;
+		border-radius: 6px;
+		color: #fff;
+		cursor: pointer;
+		display: inline-block;
+		font: 400 1.6vw/1.9vw "nimbus-sans", sans-serif;
+		padding: .4rem .8rem;
+	}
+
+/* SECTION -- WORK */
+
+	.grid {
+	    display: grid;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-gap: 3.5%;
+	    margin: 0 auto;
+	    padding: 3.5% 0 0 3%;
+	}
+
+	.grid div { margin-bottom: 15%; }
+
+	figure.grid {
+		background: #666;	
+	}
+
+	figure.grid img { 
+		display: block;
+		margin: 0 auto 13%;
+		width: 100%;
+		-webkit-box-shadow: 0 20px 10px -10px #444;
+	   	-moz-box-shadow: 	0 20px 10px -10px #444;
+	    box-shadow: 		0 20px 10px -10px #444;
+	 }
+
+	footer a { 
+		color: #333;
+		text-decoration: underline;
+	}
+
+	footer .social a {
+		font-size: 125%;
+		margin: 0 5px 20px;
+	}
+
+	footer a:hover,
+	footer .social a:hover { color: #999; }
+
+
+	/* WEE SCREENS */
+
+		@media (min-width: 100px) and (max-width: 1000px) {
+
+		header {
+			width: 90vw;
+		}
+
+		h1 {
+			font: 700 3.75vw/4.75vw "fleisch-wurst", sans-serif;
+			padding: 6vh 0;
+		}
+
+		h1 strong {
+			font: 900 3.75vw/4.75vw "fleisch-wurst", sans-serif;
+			letter-spacing: 2px;
+		}
+
+
+		.btn, input[type="button"], input[type="reset"], input[type="submit"] {
+			font: 400 4vmin/4vmin "nimbus-sans", sans-serif;
+			margin-bottom: 6vmin;
+			padding: .4rem .8rem;
+		}
+
+		h2 {
+			font: 700 5vmin/5vmin "fleisch-wurst", sans-serif;
+			padding-bottom: 3vmin;
+		}
+
+		p {
+			font: 400 4vmin/5vmin "nimbus-sans", sans-serif;
+			margin-bottom: 0;
+		}
+
+		.arashikage {
+			font-size: 150%;
+			margin-bottom: 2vmin;
+		}
+
+		footer.contact {
+			padding-top: 12vmin;
+		}
+
+		footer p {
+			margin-bottom: 12vmin;
+		}
+
+		.grid {
+		    display: grid;
+		    grid-template-columns: 100%;
+		    grid-gap: 0;
+		    margin: 0 auto;
+		    padding: 6% 6% 0;
+		}
+
+		figure.grid img { 
+			margin: 0 auto 6%;
+			-webkit-box-shadow: 0 20px 10px -10px #444;
+		   	-moz-box-shadow: 	0 20px 10px -10px #444;
+		    box-shadow: 		0 20px 10px -10px #444;
+		 }
+		
+		figure.gobacktotheshadow {
+			-webkit-box-shadow: 0 20px 10px -10px #444;
+		   	-moz-box-shadow: 	0 20px 10px -10px #444;
+		    box-shadow: 		0 20px 10px -10px #444;
+		}
+	} 
+
+	/* END TINY SCREENS */
