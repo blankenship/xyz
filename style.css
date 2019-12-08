@@ -74,7 +74,7 @@ website: 	http://blankenshipoffice.com
 	    animation: hello 2s;
 		color: #222;
 		display: block;
-		font-family: 700 2vw/2.5vw "futura-pt-bold", sans-serif;
+		font: 700 2vw/2.5vw "futura-pt-bold", sans-serif;
 		text-align: left;
 		padding: 5vh 5vw;
 	}
@@ -87,7 +87,7 @@ website: 	http://blankenshipoffice.com
 
 	h2 {
 		color: #222;
-		font-family: 700 1vw/1vw "futura-pt-bold", sans-serif;
+		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		padding-bottom: 2vw;
