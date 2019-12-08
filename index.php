@@ -39,8 +39,14 @@
 <body>
 
 <header>
-	<div class="logo">
-	</div>
+	<h2>This is blankenship.xyz</h2>
+	<h2>Today is <?php
+// Prints the day
+echo date("l") . "<br>";
+
+// Prints the day, date, month, year, time, AM or PM
+echo date("l jS \of F Y h:i:s A");
+?></h2>
 
 	<h1><strong>Joshua Blankenship</strong> is a 40yo human in Greenville, South Carolina, known for designing brand identities, blogging about things he finds interesting, co-writing and co-illustrating books and paper goods, making affordable logos, and loving Magic: the Gathering. Here are all the relevant coordinates...</h1>
 </header>
