@@ -74,20 +74,20 @@ website: 	http://blankenshipoffice.com
 	    animation: hello 2s;
 		color: #222;
 		display: block;
-		font: 700 2vw/2.5vw "neue-haas-grotesk-display", sans-serif;
+		font-family: 700 2vw/2.5vw "futura-pt", sans-serif;
 		text-align: left;
 		padding: 5vh 5vw;
 	}
 
 	h1 strong {
 		display: block;
-		font: 800 4vw/4vw "briller", "opake", "fleisch-wurst", sans-serif;
+		font: 800 4vw/4vw "opake", "fleisch-wurst", "briller", sans-serif;
 		text-transform: uppercase;
 	}
 
 	h2 {
 		color: #222;
-		font-family: 700 1vw/1vw futura-pt, sans-serif;
+		font-family: 700 1vw/1vw "futura-pt", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 		padding-bottom: 2vw;
