@@ -130,7 +130,8 @@ website: 	http://blankenshipoffice.com
 	}
 
 	.highlight:hover {
-		opacity: .5;
+		background-color: rgba(255, 224, 0, 0.8);
+		opacity: 1;
 	}
 
 	.arashikage {
