@@ -79,7 +79,7 @@ website: 	http://blankenship.studio
 	body {
 		line-height: 1.5;
 		overflow-x: hidden;
-		background-image: url(https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/e35/13687031_111777792593935_1638255329_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=107&oh=2e14e44ab8b5bc82b2a1ca87ccf8d521&oe=5E6B6F23);
+		background-image: url(https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/e35/32942773_210179619763169_2351096794689044480_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=105&oh=624882af4ef91977d7029502d9c7db37&oe=5E828CFE);
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -105,10 +105,9 @@ website: 	http://blankenship.studio
   	}
 
   	h1#masthead {
-		color: transparent;
-		font: 700 6vw/6vw "fleisch-wurst", sans-serif;
+		color: #fff;
+		font: 700 4vw/4vw "fleisch-wurst", sans-serif;
 		text-align: center;
-   		-webkit-text-stroke: 1px #fff;
  	}
 
   	h1#masthead span {
