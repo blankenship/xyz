@@ -27,7 +27,7 @@ website: 	http://blankenship.studio
 .symbol .dot,
 .symbol .dash { background-color: pink; height: 25%; margin-bottom: 2%; }
 .symbol .dot { width: 40%; }
-.symbol .dot:nth-child(even) { text-align: right; }
+.symbol .dot:nth-child(even) { margin-left: 50%; text-align: right; }
 .symbol .dash { width: 100%; }
 
 /* FOUNDATION */
