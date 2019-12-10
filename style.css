@@ -85,13 +85,13 @@ website: 	http://blankenship.studio
   	}
 
 	h2 {
-		color: #222;
+		color: #ddd;
 		font: 700 1.6vw/2.2vw "futura-pt-bold", sans-serif;
 		text-align: left;
 	}
 
 	h3 {
-		color: #222;
+		color: #ddd;
 		font: 700 .9vw/.9vw "futura-pt-bold", sans-serif;
 		letter-spacing: 3px;
 		margin-bottom: 4vw;
