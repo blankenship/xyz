@@ -62,6 +62,12 @@ website: 	http://blankenship.studio
 	body {
 		line-height: 1.5;
 		overflow-x: hidden;
+		background-image: url(https://joshuablankenship.com/images/joshuablankenship.2019.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: cover;
+		background-color: #464646;
 	}
 
 
