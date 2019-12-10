@@ -1,11 +1,11 @@
 /* 
 
-Styles:		blankenshipoffice.com/
+Styles:		blankenship.studio
 
-version: 	1.0 — 9/17/18 Update
+version: 	1.0 — 12/10/19 Update
 author: 	Joshua Blankenship
 email: 		hello@blankenshipoffice.com
-website: 	http://blankenshipoffice.com
+website: 	http://blankenship.studio
           
 
 /* FOUNDATION */
@@ -69,7 +69,7 @@ website: 	http://blankenshipoffice.com
 
 	h1 {
 		display: block;
-		font: 800 10vw/7.3vw "dharma-gothic-c", sans-serif;
+		font: 900 10vw/7.3vw "dharma-gothic-c", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
 		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
@@ -100,7 +100,7 @@ website: 	http://blankenshipoffice.com
 	h4 {
 		background: #111;
 		color: #fff;
-		font: 800 6vw/6vw "dharma-gothic-c", sans-serif;
+		font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
 		text-transform: uppercase;
 		padding: 1rem;
 	}
