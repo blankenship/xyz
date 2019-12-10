@@ -108,7 +108,8 @@ website: 	http://blankenship.studio
 		color: #fff;
 		font: 700 6vw/6vw "fleisch-wurst", sans-serif;
 		text-align: center;
-  	}
+   		-webkit-text-stroke: 1px #fff;
+ 	}
 
   	h1#masthead span {
   		font: 900 6vw/6vw "dharma-gothic-c", sans-serif;
