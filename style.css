@@ -100,9 +100,9 @@ website: 	http://blankenshipoffice.com
 	h4 {
 		background: #111;
 		color: #fff;
-		font: 800 4vw/4vw "dharma-gothic-c", sans-serif;
+		font: 800 6vw/6vw "dharma-gothic-c", sans-serif;
 		text-transform: uppercase;
-		padding: 2rem;
+		padding: 1rem;
 	}
 
 	a { 
