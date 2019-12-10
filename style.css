@@ -95,10 +95,6 @@ website: 	http://blankenship.studio
 		background-size: cover;
 	}
 
-	section { 
-		border-top: 1px solid DarkGray; 
-	}
-	
 /* TYPOGRAPHY */
 
 	h1 {
@@ -235,7 +231,7 @@ website: 	http://blankenship.studio
 /* SECTION -- TRIPLE GRID */
 
 	section {
-		border-top: 2px solid #fff; 
+		border-top: 2px solid black; 
 	}
 
 	.triple ul li { display: inline; }
@@ -245,7 +241,7 @@ website: 	http://blankenship.studio
 	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
 	    margin: 0 auto;
-	    padding: 0 2vw;
+	    padding: 0;
 	}
 
 	.triple figcaption { 
