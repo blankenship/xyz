@@ -231,6 +231,10 @@ website: 	http://blankenship.studio
 
 /* SECTION -- TRIPLE GRID */
 
+	section {
+		border-top: 2px solid #fff; 
+	}
+	
 	.triple ul li { display: inline; }
 
 	.triple {
