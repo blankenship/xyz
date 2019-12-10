@@ -94,6 +94,7 @@ website: 	http://blankenshipoffice.com
 		margin-bottom: 3vw;
 		text-align: left;
 		text-transform: uppercase;
+		padding: 4vw;
 	}
 
 	h3:nth-child(2) { text-align: right; }
