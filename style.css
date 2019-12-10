@@ -135,9 +135,6 @@ website: 	http://blankenshipoffice.com
 	    padding: 100px 10vw;
 	}
 
-	header h2 { text-align: left; }
-	header h2:last-of-type { text-align: right; }
-
   	footer {
   		margin: 0;
   		padding: 0;
@@ -180,18 +177,10 @@ website: 	http://blankenshipoffice.com
 	    padding: 3.5% 0 0 3%;
 	}
 
-	.grid div { margin-bottom: 15%; }
-
-	figure.grid {
-	}
-
 	figure.grid img { 
 		display: block;
-		margin: 0 auto 13%;
+		margin: 0 auto;
 		width: 100%;
-		-webkit-box-shadow: 0 20px 10px -10px #444;
-	   	-moz-box-shadow: 	0 20px 10px -10px #444;
-	    box-shadow: 		0 20px 10px -10px #444;
 	 }
 
 	footer a { 
