@@ -13,7 +13,7 @@ website: 	http://blankenship.studio
 .symbol {
 	background: red;
 	display: grid;
-	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-columns: 50% 50%;
 	height: 200px;
 	width: 200px;
 }
@@ -105,14 +105,14 @@ website: 	http://blankenship.studio
   	}
 
   	h1#masthead {
-		color: #fff;
+		color: transparent;
 		font: 700 6vw/6vw "fleisch-wurst", sans-serif;
 		text-align: center;
    		-webkit-text-stroke: 1px #fff;
  	}
 
   	h1#masthead span {
-  		font: 900 6vw/6vw "dharma-gothic-c", sans-serif;
+  		font: 800 6vw/6vw "briller", sans-serif;
   	}
 
 	h2 {
