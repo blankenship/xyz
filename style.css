@@ -172,6 +172,10 @@ website: 	http://blankenshipoffice.com
 		width: 100%; 
 	}
 
+	.clip {
+		clip-path: polygon(61% 0, 94% 28%, 100% 60%, 74% 94%, 20% 98%, 0 70%, 5% 18%);
+	}
+
 	.btn {
 		animation: hello 5s;
 		background-image: linear-gradient(to bottom, #81b2df 0%, #3069ae 100%);
