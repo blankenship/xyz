@@ -13,14 +13,14 @@ website: 	http://blankenship.studio
 #cornerbug {
 	position: fixed;
 	margin: 0 auto;
-	left: calc(50% - 75px);
+	left: calc(50% - 10vw);
 	}
 
 .symbol {
 	display: grid;
 	grid-template-columns: 50% 50%;
-	height: 150px;
-	width: 150px;
+	height: 20vw;
+	width: 20vw;
 }
 
 .symbol .dot,
