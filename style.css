@@ -162,10 +162,10 @@ website: 	http://blankenship.studio
 	}
 
 	.highlight {
-		background-color: rgba(255, 224, 0, 0.6);
+		background-color: #ffe70f;
 		opacity: 1;
 		display: inline;
-		padding: 0.25rem 0;
+		padding: 0.2rem 0;
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
 	}
