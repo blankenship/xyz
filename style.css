@@ -231,9 +231,9 @@ website: 	http://blankenship.studio
 
 /* SECTION -- TRIPLE GRID */
 
-	figure.triple ul li { display: inline; }
-	
-	figure.triple {
+	.triple ul li { display: inline; }
+
+	.triple {
 	    display: grid;
 	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
@@ -241,12 +241,12 @@ website: 	http://blankenship.studio
 	    padding: 0 2vw;
 	}
 
-	figure.triple figcaption { 
+	.triple figcaption { 
 		color: #fff;
 		margin: 0 auto; 
 	}
 
-	figure.triple img { 
+	.triple img { 
 		display: block;
 		margin: 0 auto;
 		width: 100%;
