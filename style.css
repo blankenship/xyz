@@ -69,12 +69,13 @@ website: 	http://blankenshipoffice.com
 
 	h1 {
 		display: block;
-		font: 800 5vw/4vw "opake", "fleisch-wurst", "briller", sans-serif;
+		font: 800 5.5vw/4vw "opake", "fleisch-wurst", "briller", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
 		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
 		-webkit-background-clip: text;
   		-webkit-text-fill-color: transparent;
+  		padding: 2vw;
   	}
 
 	h2 {
