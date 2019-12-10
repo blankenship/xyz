@@ -84,6 +84,7 @@ website: 	http://blankenship.studio
 		line-height: 1.5;
 		overflow-x: hidden;
 		background: white;
+		padding: 0 2vw;
 	}
 
 	.backgroundz {
@@ -116,7 +117,7 @@ website: 	http://blankenship.studio
   	}
 
 	h2 {
-		color: DarkGray;
+		color: black;
 		font: 700 1.6vw/2.4vw "futura-pt-bold", sans-serif;
 		margin-top: 250px;
 		text-align: left;
@@ -155,7 +156,7 @@ website: 	http://blankenship.studio
 	}
 
 	.highlight {
-		border-bottom: 2px solid DarkSeaGreen;
+		border-bottom: 2px solid Gainsboro;
 		padding-bottom: 0.1rem;
 	}
 
