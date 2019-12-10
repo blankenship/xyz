@@ -75,14 +75,12 @@ website: 	http://blankenship.studio
 		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
 		-webkit-background-clip: text;
   		-webkit-text-fill-color: transparent;
-  		padding: 0;
+  		padding: 1rem 0 0 0;
   	}
 
 	h2 {
 		color: #222;
-		display: block;
-		font: 700 1.5vw/2vw "futura-pt-bold", sans-serif;
-		margin-top: 12vh;
+		font: 700 1.6vw/2.2vw "futura-pt-bold", sans-serif;
 		text-align: left;
 	}
 
