@@ -24,7 +24,7 @@ website: 	http://blankenship.studio
 }
 
 .symbol .dot,
-.symbol .dash { background-color: #fff; height: 33%;}
+.symbol .dash { background-color: black; height: 33%;}
 .symbol .dot { width: 40%; }
 .symbol .dot:nth-child(even) { margin-left: 50%; text-align: right; }
 .symbol .dash { width: 100%; }
@@ -83,7 +83,7 @@ website: 	http://blankenship.studio
 	body {
 		line-height: 1.5;
 		overflow-x: hidden;
-		background: linear-gradient(180deg, MidnightBlue -10%, Blue);
+		background: white;
 	}
 
 	.backgroundz {
@@ -97,17 +97,12 @@ website: 	http://blankenship.studio
 /* TYPOGRAPHY */
 
 	h1 {
+		color: black;
 		display: block;
 		font: 900 10vw/7.25vw "dharma-gothic-c", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
   		padding: 1rem 0 0 0;
-  	}
-
-  	h1.gradient {
-  		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
-		-webkit-background-clip: text;
-  		-webkit-text-fill-color: transparent;
   	}
 
   	h1#masthead {
@@ -121,14 +116,14 @@ website: 	http://blankenship.studio
   	}
 
 	h2 {
-		color: lightskyblue;
+		color: DarkGray;
 		font: 700 1.6vw/2.4vw "futura-pt-bold", sans-serif;
 		margin-top: 250px;
 		text-align: left;
 	}
 
 	h3 {
-		color: lightskyblue;
+		color: DarkGray;
 		font: 700 .9vw/.9vw "futura-pt-bold", sans-serif;
 		letter-spacing: 3px;
 		margin-bottom: 4vw;
@@ -139,7 +134,7 @@ website: 	http://blankenship.studio
 	h3:nth-child(2) { text-align: right; }
 
 	h4 {
-		color: yellow;
+		color: DarkGray;
 		font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
 		text-transform: uppercase;
 	}
@@ -153,14 +148,14 @@ website: 	http://blankenship.studio
 	h1 a:visited { color: #222; }
 
 	p {
-		color: #444;
+		color: black;
 		font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
 		margin-bottom: 2vmax;
 		text-align: justify;
 	}
 
 	.highlight {
-		border-bottom: 2px solid #ffe70f;
+		border-bottom: 2px solid DarkSeaGreen;
 		padding-bottom: 0.1rem;
 	}
 
@@ -234,7 +229,7 @@ website: 	http://blankenship.studio
 	section {
 		border-top: 2px solid #fff; 
 	}
-	
+
 	.triple ul li { display: inline; }
 
 	.triple {
