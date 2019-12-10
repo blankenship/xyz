@@ -22,7 +22,7 @@ website: 	http://blankenship.studio
 }
 
 .symbol .dot,
-.symbol .dash  		{ background-color: #fff; height: 70px; margin-bottom: 20px; }
+.symbol .dash  		{ background-color: #fff; border: 1px solid red; height: 70px; margin-bottom: 20px; }
 .symbol .dot 		{ width: 50%; }
 .symbol .dash		{ width: 100%; }
 .symbol .dot .void  { margin-right: 100%; }
