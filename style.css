@@ -229,15 +229,11 @@ website: 	http://blankenship.studio
 		margin: 200px 0 0 -200px; 
 	}
 
-	figure.grid img { 
-		display: block;
-		margin: 0 auto;
-		width: 100%;
-	 }
-
 /* SECTION -- TRIPLE GRID */
 
-	.triple {
+	figure.triple ul li { display: inline; }
+	
+	figure.triple {
 	    display: grid;
 	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
@@ -245,7 +241,7 @@ website: 	http://blankenship.studio
 	    padding: 0 2vw;
 	}
 
-	figcaption { 
+	figure.triple figcaption { 
 		color: #fff;
 		margin: 0 auto; 
 	}
@@ -272,49 +268,3 @@ website: 	http://blankenship.studio
 	footer a:hover,
 	footer .social a:hover { color: #999; }
 
-
-	/* WEE SCREENS */
-
-		@media (min-width: 100px) and (max-width: 1000px) {
-
-		p {
-			font: 400 4vmin/5vmin "nimbus-sans", sans-serif;
-			margin-bottom: 0;
-		}
-
-		.arashikage {
-			font-size: 150%;
-			margin-bottom: 2vmin;
-		}
-
-		footer.contact {
-			padding-top: 12vmin;
-		}
-
-		footer p {
-			margin-bottom: 12vmin;
-		}
-
-		.grid {
-		    display: grid;
-		    grid-template-columns: 100%;
-		    grid-gap: 0;
-		    margin: 0 auto;
-		    padding: 6% 6% 0;
-		}
-
-		figure.grid img { 
-			margin: 0 auto 6%;
-			-webkit-box-shadow: 0 20px 10px -10px #444;
-		   	-moz-box-shadow: 	0 20px 10px -10px #444;
-		    box-shadow: 		0 20px 10px -10px #444;
-		 }
-		
-		figure.gobacktotheshadow {
-			-webkit-box-shadow: 0 20px 10px -10px #444;
-		   	-moz-box-shadow: 	0 20px 10px -10px #444;
-		    box-shadow: 		0 20px 10px -10px #444;
-		}
-	} 
-
-	/* END TINY SCREENS */
