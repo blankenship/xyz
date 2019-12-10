@@ -69,7 +69,7 @@ website: 	http://blankenshipoffice.com
 
 	h1 {
 		display: block;
-		font: 800 10vw/8vw "dharma-gothic-c", "fleisch-wurst", "opake", "briller", sans-serif;
+		font: 800 10vw/7vw "dharma-gothic-c", "fleisch-wurst", "opake", "briller", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
 		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
@@ -147,8 +147,8 @@ website: 	http://blankenshipoffice.com
 		padding: 0;
 		width: 100vw;
 	    display: grid;
-	    grid-template-columns: 50% 50%;
-	    grid-gap: 0;
+	    grid-template-columns: 60% 30%;
+	    grid-gap: 10%;
 	    margin: 0 auto;
 	    padding: 6vw;
 	}
