@@ -70,7 +70,7 @@ website: 	http://blankenshipoffice.com
 /* TYPOGRAPHY */
 
 
-	h1 {
+	h2 {
 	    animation: hello 2s;
 		color: #222;
 		display: block;
@@ -85,8 +85,15 @@ website: 	http://blankenshipoffice.com
 		text-transform: uppercase;
 	}
 
-	h2 {
+	h3 {
 		color: #222;
+		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+	}
+
+	h4 {
+		color: red;
 		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
@@ -172,7 +179,6 @@ website: 	http://blankenshipoffice.com
 	.grid div { margin-bottom: 15%; }
 
 	figure.grid {
-		background: #666;	
 	}
 
 	figure.grid img { 
