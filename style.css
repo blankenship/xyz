@@ -69,20 +69,20 @@ website: 	http://blankenshipoffice.com
 
 	h1 {
 		display: block;
-		font: 800 5vw/5vw "fleisch-wurst", "opake", "briller", sans-serif;
+		font: 800 5vw/6vw "fleisch-wurst", "opake", "briller", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
 		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
 		-webkit-background-clip: text;
   		-webkit-text-fill-color: transparent;
-  		padding: 2vw;
+  		padding: 0;
   	}
 
 	h2 {
 		color: #222;
 		display: block;
 		font: 700 1.5vw/2vw "futura-pt-bold", sans-serif;
-		margin-top: 5vh;
+		margin-top: 12vh;
 		text-align: left;
 		padding: 6vw;
 	}
@@ -143,7 +143,7 @@ website: 	http://blankenshipoffice.com
 	    grid-template-columns: 50% 50%;
 	    grid-gap: 0;
 	    margin: 0 auto;
-	    padding: 5vw;
+	    padding: 6vw;
 	}
 
   	footer {
