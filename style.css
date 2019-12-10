@@ -69,16 +69,6 @@ website: 	http://blankenshipoffice.com
 
 /* TYPOGRAPHY */
 
-
-	h2 {
-	    animation: hello 2s;
-		color: #222;
-		display: block;
-		font: 700 2vw/2.5vw "futura-pt-bold", sans-serif;
-		text-align: left;
-		padding: 5vh 0;
-	}
-
 	h1 {
 		display: block;
 		font: 800 4vw/4vw "opake", "fleisch-wurst", "briller", sans-serif;
@@ -89,13 +79,26 @@ website: 	http://blankenshipoffice.com
   		-webkit-text-fill-color: transparent;
   	}
 
+	h2 {
+	    animation: hello 2s;
+		color: #222;
+		display: block;
+		font: 700 1.5vw/2vw "futura-pt-bold", sans-serif;
+		margin-top: 5vh;
+		text-align: left;
+		padding: 5vh 0;
+	}
+
 	h3 {
 		color: #222;
 		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
+		text-align: left;
 		text-transform: uppercase;
 	}
 
+	h3:nth-child(2) { text-align: right; }
+	
 	h4 {
 		color: red;
 		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
