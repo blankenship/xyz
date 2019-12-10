@@ -124,9 +124,13 @@ website: 	http://blankenshipoffice.com
 		background-color: rgba(255, 224, 0, 0.6);
 		opacity: 1;
 		display: inline;
-		padding: 0.35rem 0;
+		padding: 0.25rem 0;
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
+	}
+
+	.highlight:hover {
+		opacity: .5;
 	}
 
 	.arashikage {
