@@ -194,7 +194,9 @@ website: 	http://blankenshipoffice.com
 	    margin: 0 auto;
 	}
 
-	figcaption { margin-left: -200px; }
+	figcaption { 
+		margin: 200px 0 0 -200px; 
+	}
 
 	figure.grid img { 
 		display: block;
