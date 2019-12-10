@@ -123,7 +123,7 @@ website: 	http://blankenship.studio
 	h2 {
 		color: lightskyblue;
 		font: 700 1.6vw/2.4vw "futura-pt-bold", sans-serif;
-		margin-top: 500px;
+		margin-top: 250px;
 		text-align: left;
 	}
 
@@ -139,11 +139,9 @@ website: 	http://blankenship.studio
 	h3:nth-child(2) { text-align: right; }
 
 	h4 {
-		background: #111;
-		color: white;
+		color: yellow;
 		font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
 		text-transform: uppercase;
-		padding: 1rem;
 	}
 
 	a { 
