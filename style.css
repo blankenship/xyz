@@ -84,7 +84,6 @@ website: 	http://blankenshipoffice.com
 		font: 700 1.5vw/2vw "futura-pt-bold", sans-serif;
 		margin-top: 12vh;
 		text-align: left;
-		padding: 6vw;
 	}
 
 	h3 {
@@ -147,7 +146,7 @@ website: 	http://blankenshipoffice.com
 		padding: 0;
 		width: 100vw;
 	    display: grid;
-	    grid-template-columns: 60% 30%;
+	    grid-template-columns: 50% 40%;
 	    grid-gap: 10%;
 	    margin: 0 auto;
 	    padding: 6vw;
