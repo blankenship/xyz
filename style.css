@@ -69,7 +69,7 @@ website: 	http://blankenshipoffice.com
 
 	h1 {
 		display: block;
-		font: 800 10vw/7.3vw "dharma-gothic-c", "fleisch-wurst", "opake", "briller", sans-serif;
+		font: 800 10vw/7.3vw "dharma-gothic-c", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
 		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
@@ -100,10 +100,9 @@ website: 	http://blankenshipoffice.com
 	h4 {
 		background: #111;
 		color: #fff;
-		font: 700 1.5vw/2vw "futura-pt-bold", sans-serif;
-		letter-spacing: 2px;
+		font: 800 4vw/4vw "dharma-gothic-c", sans-serif;
 		text-transform: uppercase;
-		padding: 1rem;
+		padding: 2rem;
 	}
 
 	a { 
