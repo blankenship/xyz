@@ -8,6 +8,20 @@ email: 		hello@blankenshipoffice.com
 website: 	http://blankenship.studio
           
 
+/* SYMBOL */
+
+.symbol {
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+}
+
+.symbol.dot,
+.symbol.dash  		{ background: #fff; margin-bottom: 25%; }
+.symbol.dot 		{ width: 25%; }
+.symbol.dash		{ width: 50%; }
+.symbol.dot.void,
+.symbol.dash.void	{ margin-right: 25%; }
+
 /* FOUNDATION */
 
 	*, html, body, div, span, object, iframe,
