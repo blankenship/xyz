@@ -13,7 +13,7 @@ website: 	http://blankenship.studio
 #cornerbug {
 	position: fixed;
 	margin: 0 auto;
-	left: calc(50%-150px);
+	left: calc(50% - 150px);
 	}
 
 .symbol {
