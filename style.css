@@ -235,6 +235,28 @@ website: 	http://blankenship.studio
 		width: 100%;
 	 }
 
+/* SECTION -- TRIPLE GRID */
+
+	.triple {
+	    display: grid;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-gap: 5%;
+	    margin: 0 auto;
+	}
+
+	figcaption { 
+		margin: 0 auto; 
+	}
+
+	figure.grid img { 
+		display: block;
+		margin: 0 auto;
+		width: 100%;
+	 }
+
+
+/* SECTION -- FOOTER */
+
 	footer a { 
 		color: #333;
 		text-decoration: underline;
