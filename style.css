@@ -99,10 +99,12 @@ website: 	http://blankenshipoffice.com
 	h3:nth-child(2) { text-align: right; }
 
 	h4 {
-		color: red;
-		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
+		background: #111;
+		color: #fff;
+		font: 700 1.5vw/2vw "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
+		padding: 1rem;
 	}
 
 	a { 
@@ -192,7 +194,8 @@ website: 	http://blankenshipoffice.com
 	    margin: 0 auto;
 	}
 
-	figure { margin-bottom: ; }
+	figcaption { margin-left: -200px; }
+
 	figure.grid img { 
 		display: block;
 		margin: 0 auto;
