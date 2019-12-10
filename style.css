@@ -101,6 +101,15 @@ website: 	http://blankenship.studio
   		padding: 1rem 0 0 0;
   	}
 
+  	h1#masthead {
+		color: #fff;
+		font: 700 2vw/2vw "fleisch-wurst", sans-serif;
+  	}
+
+  	h1#masthead span {
+  		font: 900 2vw/2vw "dharma-gothic-e", sans-serif;
+  	}
+
 	h2 {
 		color: #ddd;
 		font: 700 1.6vw/2.2vw "futura-pt-bold", sans-serif;
