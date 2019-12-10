@@ -242,13 +242,15 @@ website: 	http://blankenship.studio
 	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
 	    margin: 0 auto;
+	    padding: 0 2vw;
 	}
 
 	figcaption { 
+		color: #fff;
 		margin: 0 auto; 
 	}
 
-	figure.grid img { 
+	figure.triple img { 
 		display: block;
 		margin: 0 auto;
 		width: 100%;
