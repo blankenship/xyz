@@ -84,7 +84,7 @@ website: 	http://blankenship.studio
 	body {
 		line-height: 1.5;
 		overflow-x: hidden;
-		background: linear-gradient(180deg, DarkBlue -10%, Blue);
+		background: linear-gradient(180deg, MidnightBlue -10%, Blue);
 	}
 
 	.backgroundz {
