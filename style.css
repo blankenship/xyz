@@ -26,8 +26,6 @@ website: 	http://blankenship.studio
 .symbol .dash  		{ background-color: #fff; border: 1px solid red; height: 70px; margin-bottom: 20px; }
 .symbol .dot 		{ width: 50%; }
 .symbol .dash		{ width: 100%; }
-.symbol .dot .void  { margin-right: 100%; }
-.symbol .dot .push	{ margin-left: 50%; }
 
 /* FOUNDATION */
 
