@@ -90,6 +90,7 @@ website: 	http://blankenshipoffice.com
 		color: #222;
 		font: 700 1vw/1vw "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
+		margin-bottom: 3vw;
 		text-align: left;
 		text-transform: uppercase;
 	}
@@ -132,7 +133,7 @@ website: 	http://blankenshipoffice.com
 	    grid-template-columns: 50% 50%;
 	    grid-gap: 0;
 	    margin: 0 auto;
-	    padding: 100px 10vw;
+	    padding: 5vw;
 	}
 
   	footer {
