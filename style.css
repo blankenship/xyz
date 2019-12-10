@@ -182,10 +182,9 @@ website: 	http://blankenshipoffice.com
 
 	.grid {
 	    display: grid;
-	    grid-template-columns: 30% 30% 30%;
-	    grid-gap: 3.5%;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
 	    margin: 0 auto;
-	    padding: 3.5% 0 0 3%;
 	}
 
 	figure.grid img { 
