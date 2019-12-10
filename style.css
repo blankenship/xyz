@@ -14,16 +14,16 @@ website: 	http://blankenship.studio
 	background: red;
 	display: grid;
 	grid-template-columns: 50% 50%;
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
 }
 
 .symbol .dot,
-.symbol .dash  		{ background-color: #fff; height: 25%; margin-bottom: 25%; }
+.symbol .dash  		{ background-color: #fff; height: 80px; margin-bottom: 30px; }
 .symbol .dot 		{ width: 50%; }
 .symbol .dash		{ width: 100%; }
 .symbol .dot .void,
-.symbol .dash .void	{ margin-right: 25%; }
+.symbol .dash .void	{ margin-right: 50%; }
 
 /* FOUNDATION */
 
