@@ -95,6 +95,10 @@ website: 	http://blankenship.studio
 		background-size: cover;
 	}
 
+	section { 
+		border-top: 1px solid DarkGray; 
+	}
+	
 /* TYPOGRAPHY */
 
 	h1 {
