@@ -119,6 +119,15 @@ website: 	http://blankenshipoffice.com
 		text-align: justify;
 	}
 
+	.highlight {
+		background-color: rgba(255, 224, 0, 0.6);
+		opacity: 1;
+		display: inline;
+		padding: 0.35rem 0;
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
+	}
+
 	.arashikage {
 		font-size: 125%;
 		line-height: 1.8vw;
