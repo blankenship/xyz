@@ -12,8 +12,10 @@ website: 	http://blankenship.studio
 
 #cornerbug {
 	position: fixed;
+	margin: 0 auto;
+	left: 0;
 	right: 0;
-}
+	}
 
 .symbol {
 	display: grid;
