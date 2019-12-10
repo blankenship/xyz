@@ -95,19 +95,23 @@ website: 	http://blankenship.studio
 		font: 900 10vw/7.25vw "dharma-gothic-c", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
-		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
+  		padding: 1rem 0 0 0;
+  	}
+
+  	h1.gradient {
+  		background: linear-gradient(180deg,#fb2bff -10%,#ffe70f);
 		-webkit-background-clip: text;
   		-webkit-text-fill-color: transparent;
-  		padding: 1rem 0 0 0;
   	}
 
   	h1#masthead {
 		color: #fff;
-		font: 700 2vw/2vw "fleisch-wurst", sans-serif;
+		font: 700 6vw/6vw "fleisch-wurst", sans-serif;
+		text-align: center;
   	}
 
   	h1#masthead span {
-  		font: 900 2vw/2vw "dharma-gothic-e", sans-serif;
+  		font: 900 6vw/6vw "dharma-gothic-c", sans-serif;
   	}
 
 	h2 {
