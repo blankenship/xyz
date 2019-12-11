@@ -143,9 +143,8 @@ website: 	http://blankenship.studio
 
 	p {
 		color: black;
-		font: 400 1.6vw/2.2vw freight-text-pro, serif;
+		font: 400 1.5vw/2.1vw freight-text-pro, serif;
 		margin-bottom: 2vmax;
-		text-align: justify;
 	}
 
 	header {
@@ -198,10 +197,6 @@ website: 	http://blankenship.studio
 	    grid-template-columns: 45% 45%;
 	    grid-gap: 10%;
 	    margin: 0 auto;
-	}
-
-	figcaption { 
-		margin: 200px 0 0 -200px; 
 	}
 
 	figcaption p a {
