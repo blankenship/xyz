@@ -132,7 +132,7 @@ website: 	http://blankenship.studio
 		box-decoration-break: clone;
 	}
 
-	a .highlight:hover {
+	a:hover .highlight {
 		background-color: rgba(255, 224, 0, 0.2);
 		color: black;
 	}
