@@ -120,7 +120,7 @@ website: 	http://blankenship.studio
 	}
 
 	a:hover { 
-		border-bottom: 4px solid rgba(255, 224, 0, 0.7); 
+		color: silver;	
 	}
 
 	.highlight {
@@ -134,6 +134,7 @@ website: 	http://blankenship.studio
 
 	a .highlight:hover {
 		background-color: rgba(255, 224, 0, 0.2);
+		color: black;
 	}
 
 	h3 {
