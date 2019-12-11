@@ -252,11 +252,13 @@ website: 	http://blankenship.studio
 		border-top: 2px solid black; 
 		border-bottom: 2px solid black; 
 		margin-bottom: 10vw;
+		display: grid;
+		grid-template-columns: 50% 50%;
 		padding: 1rem 0 0;
 	}
 
 	footer span { 
-		display: inline-block; 
+		display: inline-block;
 		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
 	}
 
@@ -271,6 +273,6 @@ website: 	http://blankenship.studio
 	.arashikage {
 		font-size: 200%;
 		line-height: 1.8vw;
-		margin-left: 10px;
+		text-align: right;
 	}
 
