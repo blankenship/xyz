@@ -277,12 +277,12 @@ website: 	http://blankenship.studio
 	  	}
 
 		h2 {
-			font: 400 italic 1.5rem/2rem freight-text-pro, serif;
+			font: 400 italic 1.25rem/1.75rem freight-text-pro, serif;
 			margin-bottom: 2rem;
 		}
 
 		h2 strong {
-			font: 700 1.2rem/2rem "futura-pt-bold", sans-serif;
+			font: 700 .9rem/1.75rem "futura-pt-bold", sans-serif;
 		}
 
 		}
