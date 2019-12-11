@@ -252,7 +252,7 @@ website: 	http://blankenship.studio
 		border-top: 2px solid black; 
 		border-bottom: 2px solid black; 
 		margin-bottom: 10vw;
-		padding: 1rem 0;
+		padding: 1rem 0 0;
 	}
 
 	footer span { 
@@ -261,14 +261,16 @@ website: 	http://blankenship.studio
 	}
 
 	footer .social a {
-		font-size: 150%;
+		color: black;
+		font-size: 200%;
 		margin: 0 5px 20px;
 	}
 
-	footer .social a:hover { color: black; }
+	footer .social a:hover { color: Gainsboro; }
 
 	.arashikage {
-		font-size: 125%;
+		font-size: 200%;
 		line-height: 1.8vw;
+		margin-left: 10px;
 	}
 
