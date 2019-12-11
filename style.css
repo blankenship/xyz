@@ -255,7 +255,11 @@ website: 	http://blankenship.studio
 
 /* WEE SCREENS */
 
-		@media (min-width: 100px) and (max-width: 1000px) {
+		@media (min-width: 100px) and (max-width: 900px) {
+
+		body {
+			padding: 0 5vw;
+		}
 
 		.tres,
 		.quatro {
@@ -263,5 +267,5 @@ website: 	http://blankenship.studio
 			    margin: 0 auto;
 			    padding: 0;
 			}
-	
+
 		}
