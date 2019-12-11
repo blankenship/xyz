@@ -221,6 +221,10 @@ website: 	http://blankenship.studio
 		padding-top: 10px;
 	}
 
+	section:last-of-type {
+		border-bottom: 2px solid black; 
+	}
+
 	section ul li { display: inline; }
 
 	.tres {
