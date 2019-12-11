@@ -79,21 +79,13 @@ website: 	http://blankenship.studio
 	    }
 	}
 
-	img { grayscale(100%); }
+	img { filter: grayscale(100%); }
 
 	body {
 		line-height: 1.5;
 		overflow-x: hidden;
 		background: white;
 		padding: 0 5vw;
-	}
-
-	.backgroundz {
-		background-image: url(https://scontent-iad3-1.cdninstagram.com/v/t51.2885-15/e35/32942773_210179619763169_2351096794689044480_n.jpg?_nc_ht=scontent-iad3-1.cdninstagram.com&_nc_cat=105&oh=624882af4ef91977d7029502d9c7db37&oe=5E828CFE);
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
 	}
 
 /* TYPOGRAPHY */
@@ -165,6 +157,8 @@ website: 	http://blankenship.studio
 	    padding: 2vw 0 4vw;
 	}
 
+	header img { width: 20vw; }
+
   	footer {
   		margin: 0;
   		padding: 0;
@@ -222,6 +216,7 @@ website: 	http://blankenship.studio
 
 	section {
 		border-top: 2px solid black; 
+		margin-bottom: 100px;
 		padding-top: 10px;
 	}
 
