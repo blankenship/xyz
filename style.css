@@ -145,7 +145,7 @@ website: 	http://blankenship.studio
 		text-decoration: none;
 	}
 
-	a:hover { color: Goldenrod; }
+	a:hover { color: rgba(255, 224, 0, 0.7); }
 
 	header {
 		margin: 0 auto;
@@ -238,7 +238,7 @@ website: 	http://blankenship.studio
 		margin: 0 5px 20px;
 	}
 
-	footer .social a:hover { color: Goldenrod; }
+	footer .social a:hover { color: rgba(255, 224, 0, 0.7); }
 
 	.arashikage {
 		font-size: 200%;
