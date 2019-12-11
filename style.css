@@ -221,10 +221,6 @@ website: 	http://blankenship.studio
 		padding-top: 10px;
 	}
 
-	section:last-of-type {
-		border-bottom: 2px solid black; 
-	}
-
 	section ul li { display: inline; }
 
 	.tres {
@@ -261,7 +257,7 @@ website: 	http://blankenship.studio
 		border-top: 2px solid black; 
 		border-bottom: 2px solid black; 
 	}
-	
+
 	footer a { 
 		color: #333;
 		text-decoration: underline;
