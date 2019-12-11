@@ -257,6 +257,11 @@ website: 	http://blankenship.studio
 
 /* SECTION -- FOOTER */
 
+	footer {
+		border-top: 2px solid black; 
+		border-bottom: 2px solid black; 
+	}
+	
 	footer a { 
 		color: #333;
 		text-decoration: underline;
