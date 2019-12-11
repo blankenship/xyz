@@ -124,7 +124,7 @@ website: 	http://blankenship.studio
 	}
 
 	h2 strong {
-		font: 700 1.1vw/2vw "futura-pt-bold", sans-serif;
+		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 	}
@@ -238,9 +238,9 @@ website: 	http://blankenship.studio
 		padding-top: 10px;
 	}
 
-	.triple ul li { display: inline; }
+	section ul li { display: inline; }
 
-	.triple {
+	.tres {
 	    display: grid;
 	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
@@ -248,12 +248,20 @@ website: 	http://blankenship.studio
 	    padding: 0;
 	}
 
-	.triple figcaption { 
+	.cinco {
+	    display: grid;
+	    grid-template-columns: 16% 16% 16% 16% 16%;
+	    grid-gap: 5%;
+	    margin: 0 auto;
+	    padding: 0;
+	}
+
+	section figcaption { 
 		color: #fff;
 		margin: 0 auto; 
 	}
 
-	.triple img { 
+	section figure img { 
 		display: block;
 		margin: 0 auto;
 		width: 100%;
