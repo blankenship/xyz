@@ -173,32 +173,8 @@ website: 	http://blankenship.studio
 	footer span { display: block; }
 
 	img { 
+		margin-bottom: 1rem;
 		width: 100%; 
-	}
-
-	.clip {
-		clip-path: polygon(61% 0, 94% 28%, 100% 60%, 74% 94%, 20% 98%, 0 70%, 5% 18%);
-	}
-
-	.btn {
-		animation: hello 5s;
-		background-image: linear-gradient(to bottom, #81b2df 0%, #3069ae 100%);
-		border: 0;
-		border-radius: 6px;
-		color: white;
-		cursor: pointer;
-		display: inline-block;
-		font: 400 1.6vw/1.9vw "nimbus-sans", sans-serif;
-		padding: .4rem .8rem;
-	}
-
-/* SECTION -- WORK */
-
-	.grid {
-	    display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
-	    margin: 0 auto;
 	}
 
 	figcaption p a {
@@ -209,8 +185,8 @@ website: 	http://blankenship.studio
 
 	section {
 		border-top: 2px solid black; 
-		margin-bottom: 100px;
-		padding-top: 10px;
+		margin-bottom: 10rem;
+		padding-top: 1rem;
 	}
 
 	section ul li { display: inline; }
