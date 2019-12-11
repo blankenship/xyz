@@ -256,12 +256,17 @@ website: 	http://blankenship.studio
 	footer {
 		border-top: 2px solid black; 
 		border-bottom: 2px solid black; 
+		margin-bottom: 10vw;
+		padding: 2rem;
+	}
+
+	footer span { 
+		display: inline-block; 
 		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
 	}
 
-	footer span { display: inline-block; }
-	
 	footer a { 
+		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
 		text-decoration: underline;
 	}
 
