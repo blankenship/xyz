@@ -201,12 +201,16 @@ website: 	http://blankenship.studio
 	 }
 
 	section figcaption { 
-		color: #fff;
+		color: black;
 		margin: 0 auto; 
 	}
-	
-	section figcaption p {
+
+	section figcaption p a {
 		font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
+	}
+
+	section figcaption p {
+		font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
 	}
 
 /* SECTION -- FOOTER */
