@@ -253,3 +253,15 @@ website: 	http://blankenship.studio
 		text-align: right;
 	}
 
+/* WEE SCREENS */
+
+		@media (min-width: 100px) and (max-width: 1000px) {
+
+		.tres,
+		.quatro {
+			    display: block;
+			    margin: 0 auto;
+			    padding: 0;
+			}
+	
+		}
