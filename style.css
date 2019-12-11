@@ -119,6 +119,7 @@ website: 	http://blankenship.studio
 	h2 {
 		color: black;
 		font: 400 italic 1.6vw/2.2vw freight-text-pro, serif;
+		margin-bottom: 2.2vw;
 		text-align: left;
 	}
 
@@ -228,10 +229,11 @@ website: 	http://blankenship.studio
 		margin: 200px 0 0 -200px; 
 	}
 
-/* SECTION -- TRIPLE GRID */
+/* SECTION -- DEM GRIDS */
 
 	section {
 		border-top: 2px solid black; 
+		padding-top: 20px;
 	}
 
 	.triple ul li { display: inline; }
