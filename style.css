@@ -12,7 +12,7 @@ website: 	http://blankenship.studio
 
 #cornerbug {
 	position: fixed;
-	left: calc(0 - 5vw);
+	right: calc(0 - 5vw);
 	}
 
 .symbol {
