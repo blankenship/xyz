@@ -273,8 +273,16 @@ website: 	http://blankenship.studio
 		}
 
 		h1 {
-			font: 900 18vw/13.5vw "dharma-gothic-c", sans-serif;
+			font: 900 18vw/13.4vw "dharma-gothic-c", sans-serif;
 	  	}
 
+		h2 {
+			font: 400 italic 2rem/2.5rem freight-text-pro, serif;
+			margin-bottom: 2.5rem;
+		}
+
+		h2 strong {
+			font: 700 1.5rem/2.5rem "futura-pt-bold", sans-serif;
+		}
 
 		}
