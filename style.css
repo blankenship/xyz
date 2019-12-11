@@ -231,7 +231,7 @@ website: 	http://blankenship.studio
 
 	.quatro {
 	    display: grid;
-	    grid-template-columns: 16% 16% 16% 16% 16%;
+	    grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
 	    grid-gap: 5%;
 	    margin: 0 auto;
 	    padding: 0;
