@@ -85,7 +85,12 @@ website: 	http://blankenship.studio
 		line-height: 1.5;
 		overflow-x: hidden;
 		background: white;
-		padding: 0 10vw;
+		padding: 10vw;
+	}
+
+	header {
+		margin: 0 auto;
+		padding: 0;
 	}
 
 /* TYPOGRAPHY */
@@ -152,13 +157,6 @@ website: 	http://blankenship.studio
 		color: black;
 		font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
 		text-transform: uppercase;
-	}
-
-	header {
-		margin: 0 auto;
-		padding: 0;
-	    margin: 0 auto;
-	    padding: 4vw 0;
 	}
 
   	footer {
@@ -258,7 +256,7 @@ website: 	http://blankenship.studio
 		@media (min-width: 100px) and (max-width: 900px) {
 
 		body {
-			padding: 0 5vw;
+			padding: 5vw;
 		}
 
 		.tres,
@@ -267,5 +265,13 @@ website: 	http://blankenship.studio
 			    margin: 0 auto;
 			    padding: 0;
 			}
+
+		h3 {
+			font: 700 2vw/2vw "futura-pt-bold", sans-serif;
+			margin-bottom: 5vw;
+			padding: 1rem;
+		}
+
+
 
 		}
