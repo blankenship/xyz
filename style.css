@@ -267,10 +267,9 @@ website: 	http://blankenship.studio
 			}
 
 		h3 {
-			font: 700 2vw/2vw "futura-pt-bold", sans-serif;
+			font: 700 1rem/1rem "futura-pt-bold", sans-serif;
 			margin-bottom: 5vw;
 			padding: 1rem;
-			text-align: center;
 		}
 
 		h1 {
