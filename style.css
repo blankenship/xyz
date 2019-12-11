@@ -94,6 +94,7 @@ website: 	http://blankenship.studio
 		color: black;
 		display: block;
 		font: 900 10vw/7.25vw "dharma-gothic-c", sans-serif;
+		margin-top: 4vw;
 		text-align: left;
 		text-transform: uppercase;
   		padding: 1rem 0 0 0;
@@ -154,7 +155,7 @@ website: 	http://blankenship.studio
 		margin: 0 auto;
 		padding: 0;
 	    margin: 0 auto;
-	    padding: 2vw 0 4vw;
+	    padding: 4vw 0;
 	}
 
   	footer {
