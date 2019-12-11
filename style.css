@@ -114,7 +114,7 @@ website: 	http://blankenship.studio
 	}
 
 	.highlight {
-		border-bottom: 1px solid Gainsboro;
+		border-bottom: 1px solid Goldenrod;
 		padding-bottom: 0.1rem;
 	}
 
@@ -136,10 +136,12 @@ website: 	http://blankenship.studio
 	}
 
 	a { 
-		color: Gainsboro;
+		color: black;
 		display: inline-block;
 		text-decoration: none;
 	}
+
+	a:hover { color: Goldenrod; }
 
 	p {
 		color: black;
@@ -262,7 +264,7 @@ website: 	http://blankenship.studio
 		margin: 0 5px 20px;
 	}
 
-	footer .social a:hover { color: Gainsboro; }
+	footer .social a:hover { color: Goldenrod; }
 
 	.arashikage {
 		font-size: 200%;
