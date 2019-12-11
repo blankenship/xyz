@@ -113,6 +113,17 @@ website: 	http://blankenship.studio
 		text-transform: uppercase;
 	}
 
+	a { 
+		color: black;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	a:hover { 
+		border-bottom: 4px solid rgba(255, 224, 0, 0.7); 
+		padding-bottom: .2rem;
+	}
+
 	.highlight {
 		background-color: rgba(255, 224, 0, 0.7);
 		opacity: 1;
@@ -120,6 +131,10 @@ website: 	http://blankenship.studio
 		padding: 0.2rem 0;
 		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
+	}
+
+	a .highlight:hover {
+		background-color: rgba(255, 224, 0, 0.2);
 	}
 
 	h3 {
@@ -138,14 +153,6 @@ website: 	http://blankenship.studio
 		font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
 		text-transform: uppercase;
 	}
-
-	a { 
-		color: black;
-		display: inline-block;
-		text-decoration: none;
-	}
-
-	a:hover { color: rgba(255, 224, 0, 0.7); }
 
 	header {
 		margin: 0 auto;
