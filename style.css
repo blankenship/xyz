@@ -133,6 +133,7 @@ website: 	http://blankenship.studio
 	}
 
 	a { 
+		color: Gainsboro;
 		display: inline-block;
 		text-decoration: none;
 	}
