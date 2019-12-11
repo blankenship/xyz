@@ -114,8 +114,12 @@ website: 	http://blankenship.studio
 	}
 
 	.highlight {
-		border-bottom: 1px solid Goldenrod;
-		padding-bottom: 0.1rem;
+		background-color: rgba(255, 224, 0, 0.6);
+		opacity: 1;
+		display: inline;
+		padding: 0.2rem 0;
+		-webkit-box-decoration-break: clone;
+		box-decoration-break: clone;
 	}
 
 	h3 {
