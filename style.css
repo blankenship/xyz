@@ -294,4 +294,8 @@ website: 	http://blankenship.studio
 			font: 1.25rem/1.75rem "futura-pt-bold", sans-serif;
 		}
 
+		footer .social a {
+			font-size: 300%;
+		}
+
 		}
