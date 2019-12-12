@@ -211,7 +211,7 @@ website: 	http://blankenship.studio
 
 	section figure img.inset {
 		background-color: black;
-		padding: 10%;
+		padding: 10% 10% 15% 10%;
 	} 
 
 	section figure img.tombstone {
