@@ -209,6 +209,11 @@ website: 	http://blankenship.studio
 		width: 100%;
 	 }
 
+	section.collage img:nth-child(1) { width: 25%; }
+	section.collage img:nth-child(2) { border-radius: 50%; width: 25%; }
+	section.collage img:nth-child(3) { width: 50%; }
+	section.collage img:nth-child(4) { width: 25%; }
+
 	section figcaption { 
 		color: black;
 		margin: 0 auto; 
