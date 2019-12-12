@@ -214,6 +214,7 @@ website: 	http://blankenship.studio
 	section figure.collage {
 		display: grid;
 		grid-template-columns: 50% 50%;
+		margin: 0 auto 1rem;
 	}
 	section figure.collage img:nth-child(1) { 
 		width: 100%; 
