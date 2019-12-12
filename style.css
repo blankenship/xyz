@@ -209,6 +209,11 @@ website: 	http://blankenship.studio
 		width: 100%;
 	 }
 
+	section figure img.inset {
+		background-color: black;
+		padding: 1rem;
+	} 
+
 	section figure img.tombstone {
 		border-top-left-radius: 150%;
 		border-top-right-radius: 150%;
