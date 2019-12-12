@@ -215,10 +215,10 @@ website: 	http://blankenship.studio
 
 	 }
 
-	section figure.collage img:nth-child(1) { width: 25%; }
-	section figure.collage img:nth-child(2) { border-radius: 100%; width: 25%; }
+	section figure.collage img:nth-child(1) { width: 100%; }
+	section figure.collage img:nth-child(2) { border-radius: 100%; width: 100%; }
 	section figure.collage img:nth-child(3) { width: 50%; }
-	section figure.collage img:nth-child(4) { width: 25%; }
+	section figure.collage img:nth-child(4) { width: 100%; }
 
 	section figcaption { 
 		color: black;
