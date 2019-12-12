@@ -211,6 +211,7 @@ website: 	http://blankenship.studio
 
 	section figure img.inset {
 		background-color: black;
+		border-radius: 2px;
 		padding: 10% 10% 16% 10%;
 	} 
 
