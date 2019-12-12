@@ -209,6 +209,18 @@ website: 	http://blankenship.studio
 		width: 100%;
 	 }
 
+	section figure img { 
+		display: block;
+		margin: 0 auto 1rem;
+		width: 100%;
+	 }
+
+	section figure img.logo { 
+		display: block;
+		margin: 0 auto 1rem;
+		width: 50%;
+	 }
+
 	section figure img.inset {
 		background-color: black;
 		border-radius: 1px;
