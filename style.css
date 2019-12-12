@@ -250,6 +250,12 @@ website: 	http://blankenship.studio
 	section figure.collage img:nth-child(3) { 
 		margin: -23% 0 0 25%; 
 		width: 115%; 
+		z-index: 1;
+	}
+	section figure.collage img:nth-child(4) { 
+		margin: -15% 0 0 0; 
+		width: 50%; 
+		z-index: 0;
 	}
 
 	section figcaption { 
