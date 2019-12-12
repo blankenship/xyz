@@ -209,6 +209,11 @@ website: 	http://blankenship.studio
 		width: 100%;
 	 }
 
+	section figure img.tombstone {
+		border-top-left-radius: 100%;
+		border-top-right-radius: 100%;
+	} 
+
 	 /* COLLAGE */
 
 	section figure.collage {
