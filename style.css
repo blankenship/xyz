@@ -209,20 +209,22 @@ website: 	http://blankenship.studio
 		width: 100%;
 	 }
 
-	 section figure.collage {
-	 	display: grid;
-	 	grid-template-columns: 50% 50%;
+	 /* COLLAGE */
 
-	 }
-
-	section figure.collage img:nth-child(1) { width: 100%; }
+	section figure.collage {
+		display: grid;
+		grid-template-columns: 50% 50%;
+	}
+	section figure.collage img:nth-child(1) { 
+		width: 100%; 
+	}
 	section figure.collage img:nth-child(2) { 
 		border-radius: 100%; 
 		margin: 50% 0 0 -50%; 
 		width: 150%; 
 	}
 	section figure.collage img:nth-child(3) { 
-		margin: -25% 25% 0 0; 
+		margin: -25% 0 0 25%; 
 		width: 75%; 
 	}
 
