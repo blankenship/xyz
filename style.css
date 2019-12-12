@@ -220,7 +220,7 @@ website: 	http://blankenship.studio
 	}
 	section figure.collage img:nth-child(2) { 
 		border-radius: 100%; 
-		margin: 50% 0 0 -50%; 
+		margin: 25% 0 0 -50%; 
 		width: 150%; 
 	}
 	section figure.collage img:nth-child(3) { 
