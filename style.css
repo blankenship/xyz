@@ -210,7 +210,7 @@ website: 	http://blankenship.studio
 	 }
 
 	section figure img.inset {
-		background-color: black;
+		background-color: gainsboro;
 		border-radius: 1px;
 		padding: 10% 10% 16.5% 10%;
 	} 
