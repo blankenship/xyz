@@ -210,7 +210,7 @@ website: 	http://blankenship.studio
 	 }
 
 	section figure img.tombstone {
-		border-top-left-radius: 100%;
+		border-top-left-radius: 150%;
 		border-top-right-radius: 100%;
 	} 
 
