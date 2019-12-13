@@ -86,6 +86,7 @@ website: 	http://blankenship.studio
 		overflow-x: hidden;
 		background: white;
 		padding: 5vw 10vw;
+		max-width: 1400px;
 	}
 
 	header {
@@ -302,7 +303,17 @@ website: 	http://blankenship.studio
 
 /* WEE SCREENS */
 
-		@media (min-width: 100px) and (max-width: 900px) {
+		@media (min-width: 801px) and (max-width: 1000px) {
+
+			.quatro {
+				    display: grid;
+					grid-template-columns: 45% 45%;
+					grid-column-gap: 10%;
+				}
+
+		}
+
+		@media (min-width: 100px) and (max-width: 800px) {
 
 		body {
 			padding: 5vw;
