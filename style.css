@@ -228,8 +228,8 @@ website: 	http://blankenship.studio
 	} 
 
 	section figure img.tombstone {
-		border-top-left-radius: 150%;
-		border-top-right-radius: 150%;
+		border-top-left-radius: 200%;
+		border-top-right-radius: 200%;
 	} 
 
 	 /* COLLAGE */
