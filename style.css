@@ -238,8 +238,8 @@ website: 	http://blankenship.xyz
 	} 
 
 	section figure img.tombstone {
-		border-top-left-radius: 45%;
-		border-top-right-radius: 45%;
+		border-top-left-radius: 35%;
+		border-top-right-radius: 35%;
 	} 
 
 	 /* COLLAGE */
