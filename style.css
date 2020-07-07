@@ -243,7 +243,6 @@ website: 	http://blankenship.xyz
 	} 
 
 	section figure img.sharp {
-		border-top-left-radius: 100%;
 		border-bottom-right-radius: 100%;
 	} 
 
