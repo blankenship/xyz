@@ -242,6 +242,11 @@ website: 	http://blankenship.xyz
 		border-top-right-radius: 50%;
 	} 
 
+	section figure img.sharp {
+		border-top-left-radius: 100%;
+		border-bottom-right-radius: 100%;
+	} 
+
 	 /* COLLAGE */
 
 	section figure.collage {
