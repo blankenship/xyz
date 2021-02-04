@@ -376,8 +376,14 @@ website: 	http://blankenship.xyz
 
 	.newnew {
 	    display: grid;
-	    grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
+	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
 	    margin: 0 auto;
 	    padding: 0;
 	}
+
+	section .newnew figure img { 
+		display: inline;
+		margin: 0 1rem 0 0;
+		width: 25%;
+	 }
