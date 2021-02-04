@@ -389,6 +389,7 @@ website: 	http://blankenship.xyz
 	}
 
 	section .newnew figure img { 
+		border-radius: 50%;
 		margin: 0;
 		width: 100%;
 	 }
