@@ -385,5 +385,11 @@ website: 	http://blankenship.xyz
 	section .newnew figure img { 
 		display: inline;
 		margin: 0 1rem 0 0;
-		width: 25%;
+		width: 20%;
 	 }
+
+	section .newnew figcaption { 
+		color: black;
+		display: inline;
+		margin: 0; 
+	}
