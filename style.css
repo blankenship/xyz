@@ -382,15 +382,19 @@ website: 	http://blankenship.xyz
 	    padding: 0;
 	}
 
+	section .newnew li {
+	    display: grid;
+	    grid-template-columns: 20% 70%;
+	    grid-gap: 10%;		
+	}
+
 	section .newnew figure img { 
-		display: inline;
-		margin: 0 1rem 0 0;
-		width: 20%;
+		margin: 0;
+		width: 100%;
 	 }
 
 	section .newnew figcaption,
 	section .newnew figcaption p { 
 		color: black;
-		display: inline;
 		margin: 0; 
 	}
