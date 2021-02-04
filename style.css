@@ -388,7 +388,8 @@ website: 	http://blankenship.xyz
 		width: 20%;
 	 }
 
-	section .newnew figcaption { 
+	section .newnew figcaption,
+	section .newnew figcaption p { 
 		color: black;
 		display: inline;
 		margin: 0; 
