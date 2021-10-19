@@ -417,3 +417,10 @@ website: 	http://blankenship.xyz
 	    grid-template-columns: 45% 45%;
 	    grid-gap: 10%;
 	}
+
+	section p {
+		font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
+	}
+
+	section p a {
+		font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
