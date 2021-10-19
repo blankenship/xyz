@@ -377,7 +377,7 @@ website: 	http://blankenship.xyz
 
 	.headshot { 
 		border: 2px solid black; 
-		border-radius: 50% 50% 4px 4px; 
+		border-radius: 50%; 
 	}
 
 
