@@ -374,13 +374,13 @@ website: 	http://blankenship.xyz
 
 /* 2021 */
 
-/*	.newnew {
+	.newnew {
 	    display: grid;
-	    grid-template-columns: 30% 30% 30%;
-	    grid-gap: 5%;
+	    grid-template-columns: 40% 40%;
+	    grid-gap: 20%;
 	    margin: 0 auto;
 	    padding: 0;
-	}*/
+	}
 
 	section .newnew li {
 	    display: grid;
