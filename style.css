@@ -376,8 +376,8 @@ website: 	http://blankenship.xyz
 
 	.newnew {
 	    display: grid;
-	    grid-template-columns: 40% 40%;
-	    grid-gap: 20%;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
 	    margin: 0 auto;
 	    padding: 0;
 	}
@@ -386,7 +386,6 @@ website: 	http://blankenship.xyz
 	    display: grid;
 	    grid-template-columns: 25% 65%;
 	    grid-gap: 10%;	
-		margin-bottom: 3.5rem;
 	}
 
 	section .newnew figure img { 
