@@ -376,11 +376,12 @@ website: 	http://blankenship.xyz
 /* 2021 */
 
 	.newnew {
+		border-top: 2px solid black; 
+		margin-bottom: 0 auto 10rem;
+		padding: 1rem 0 0 0;
 	    display: grid;
 	    grid-template-columns: 45% 45%;
 	    grid-gap: 10%;
-	    margin: 0 auto;
-	    padding: 0;
 	}
 
 	section .newnew li {
