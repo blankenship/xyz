@@ -418,6 +418,10 @@ website: 	http://blankenship.xyz
 	    grid-gap: 10%;
 	}
 
+	.nologos li {
+		margin-bottom:  2.5rem;
+	}
+	
 	section p {
 		font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
 	}
