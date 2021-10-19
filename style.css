@@ -377,7 +377,7 @@ website: 	http://blankenship.xyz
 
 	.newnew {
 		border-top: 2px solid black; 
-		margin: 0 auto 20rem;
+		margin: 0 auto 5em;
 		padding: 1rem 0 0 0;
 	    display: grid;
 	    grid-template-columns: 45% 45%;
