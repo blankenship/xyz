@@ -410,3 +410,12 @@ website: 	http://blankenship.xyz
 		color: black;
 		margin: 0; 
 	}
+
+	.nologos {
+		border-top: 2px solid black; 
+		margin: 0 auto 5em;
+		padding: 2.5rem 0 0 0;
+	    display: grid;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
+	}
