@@ -87,7 +87,7 @@ website: 	http://blankenship.xyz
 		overflow-x: hidden;
 		background: white;
 		padding: 5vw 10vw;
-		max-width: 1400px;
+		max-width: 1200px;
 	}
 
 	header {
@@ -384,8 +384,9 @@ website: 	http://blankenship.xyz
 
 	section .newnew li {
 	    display: grid;
-	    grid-template-columns: 20% 70%;
-	    grid-gap: 10%;		
+	    grid-template-columns: 25% 65%;
+	    grid-gap: 10%;	
+		margin-bottom: 3.5rem;
 	}
 
 	section .newnew figure img { 
