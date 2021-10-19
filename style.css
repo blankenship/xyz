@@ -86,8 +86,9 @@ website: 	http://blankenship.xyz
 		line-height: 1.5;
 		overflow-x: hidden;
 		background: white;
-		padding: 5vw 10vw;
-		max-width: 1200px;
+		margin:  0 auto;
+		padding: 2.5vw 10vw;
+		max-width: 1400px;
 	}
 
 	header {
