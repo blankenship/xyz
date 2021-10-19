@@ -375,7 +375,11 @@ website: 	http://blankenship.xyz
 
 /* 2021 */
 
-	.headshot { border-radius: 50%; }
+	.headshot { 
+		border: 2px solid black; 
+		border-radius: 50% 50% 4px 4px; 
+	}
+
 
 	.newnew {
 		border-top: 2px solid black; 
