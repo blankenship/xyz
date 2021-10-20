@@ -144,11 +144,13 @@ website: 	http://blankenship.xyz
 		width: 100%;
 	 }
 
-	section p {
+	section p,
+	section aside {
 		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
 	}
 
-	section p a {
+	section p a,
+	section aside strong {
 		font: 700 .8rem/1.7rem "futura-pt-bold", sans-serif;
 		letter-spacing: .1rem;
 		text-transform: uppercase;
@@ -221,11 +223,13 @@ website: 	http://blankenship.xyz
 				width: 35%;
 			}
 
-			section p {
+			section p,
+			section aside {
 				font: 400 1.3rem/2rem "futura-pt", sans-serif;
 			}
 
-			section p a {
+			section p a,
+			section aside strong {
 				font: 700 1rem/2rem "futura-pt-bold", sans-serif;
 			}
 
