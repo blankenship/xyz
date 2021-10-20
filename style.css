@@ -68,7 +68,7 @@ website: 	http://blankenship.xyz
 		background: white;
 		margin:  0 auto;
 		padding: 2.5rem 10rem;
-		max-width: 1400px;
+		max-width: 1500px;
 	}
 
 	header {
@@ -81,25 +81,10 @@ website: 	http://blankenship.xyz
 	h1 {
 		color: black;
 		display: block;
-		font: 900 10rem/7.25rem "dharma-gothic-c", sans-serif;
-		margin-top: 5rem;
+		font: 900 8rem/8rem "dharma-gothic-c", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
-  		padding: 1rem 0 0 0;
   	}
-
-	h2 {
-		color: black;
-		font: 400 italic 1.6rem/2.2rem freight-text-pro, serif;
-		margin-bottom: 2.2rem;
-		text-align: left;
-	}
-
-	h2 strong {
-		font: 700 1.2rem/2rem "futura-pt-bold", sans-serif;
-		letter-spacing: 2px;
-		text-transform: uppercase;
-	}
 
 	a { 
 		color: black;
@@ -121,34 +106,13 @@ website: 	http://blankenship.xyz
 	}
 
 	a.highlight:hover  {
-		background-color: rgba(255, 0, 243, 0.7);
+		background-color: silver;
 		color: black;
-	}
-
-	h3 {
-		background-color: black;
-		color: white;
-		font: 700 .9rem/.9rem "futura-pt-bold", sans-serif;
-		letter-spacing: 3px;
-		margin-bottom: 4rem;
-		padding: 2rem;
-		text-align: left;
-		text-transform: uppercase;
-	}
-
-	h4 {
-		color: black;
-		font: 900 6rem/6rem "dharma-gothic-e", sans-serif;
-		text-transform: uppercase;
 	}
 
   	footer {
   		margin: 0;
   		padding: 0;
-   }
-
-   footer p {
-   		text-align: center;
    }
    
 	footer.contact { 
@@ -163,93 +127,18 @@ website: 	http://blankenship.xyz
 /* SECTION -- DEM GRIDS */
 
 	section {
-		border-top: 2px solid black; 
-		margin-bottom: 10rem;
-		padding-top: 1rem;
+		border-top: 4px solid black; 
+		margin-bottom: 8rem;
+		padding-top: 2rem;
 	}
 
 	section ul li { display: inline; }
 
-	.tres {
-	    display: grid;
-	    grid-template-columns: 30% 30% 30%;
-	    grid-gap: 5%;
-	    margin: 0 auto;
-	    padding: 0;
-	}
-
-	.quatro {
-	    display: grid;
-	    grid-template-columns: 21.25% 21.25% 21.25% 21.25%;
-	    grid-gap: 5%;
-	    margin: 0 auto;
-	    padding: 0;
-	}
-
-	.cinco {
-	    display: grid;
-	    grid-template-columns: 18% 18% 18% 18% 18%;
-	    grid-gap: 2.5%;
-	    margin: 0 auto;
-	    padding: 0;
-	}
-
 	section figure img { 
 		display: block;
 		margin: 0 auto 1rem;
 		width: 100%;
 	 }
-
-	section figure img { 
-		display: block;
-		margin: 0 auto 1rem;
-		width: 100%;
-	 }
-
-	section figure img.logo { 
-		display: block;
-		margin: 2rem auto 3rem;
-		width: 50%;
-	 }
-
-	section figure img.inset {
-		background-color: black;
-		border-radius: 1px;
-		padding: 10% 10% 16.5% 10%;
-	} 
-
-	section figure img.tombstone {
-		border-top-left-radius: 99%;
-		border-top-right-radius: 99%;
-	} 
-
-	 /* COLLAGE */
-
-	section figure.collage {
-		display: grid;
-		grid-template-columns: 50% 50%;
-		margin: 0 auto 1rem;
-	}
-	section figure.collage img:nth-child(1) { 
-		width: 100%; 
-		z-index: 1;
-	}
-	section figure.collage img:nth-child(2) { 
-		border-radius: 100%; 
-		margin: 25% 0 0 -50%; 
-		width: 150%; 
-		z-index: 0;
-	}
-	section figure.collage img:nth-child(3) { 
-		margin: -23% 0 0 25%; 
-		width: 115%; 
-		z-index: -1;
-	}
-	section figure.collage img:nth-child(4) { 
-		margin: -23% 0 0 25%; 
-		width: 75%; 
-		z-index: -2;
-	}
 
 	section figcaption { 
 		color: black;
@@ -257,35 +146,30 @@ website: 	http://blankenship.xyz
 	}
 
 	section figcaption p {
-		font: 400 1.3rem/1.6rem "futura-pt", sans-serif;
+		font: 400 1.5rem/2rem "futura-pt", sans-serif;
 	}
 
 	section figcaption p a {
-		font: 700 1.3rem/1.6rem "futura-pt-bold", sans-serif;
+		font: 700 1.5rem/2rem "futura-pt-bold", sans-serif;
 	}
 
 /* SECTION -- FOOTER */
 
 	footer {
-		border-top: 2px solid black; 
+		border-top: 4px solid black; 
 		margin-bottom: 10rem;
 		display: grid;
 		grid-template-columns: 50% 50%;
 		padding: 1rem 0 0;
 	}
 
-	footer span { 
-		display: inline-block;
-		font: 700 1.2rem/2rem "futura-pt-bold", sans-serif;
-	}
-
 	footer .social a {
 		color: black;
-		font-size: 200%;
+		font-size: 1500%;
 		margin: 0 5px 20px;
 	}
 
-	footer .social a:hover { color: rgba(255, 224, 0, 0.7); }
+	footer .social a:hover { color: silver; }
 
 	.arashikage {
 		font-size: 200%;
