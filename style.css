@@ -18,10 +18,7 @@ website: 	http://blankenship.xyz
 	dl, dt, dd, ol, ul, li, img, figure, figcaption,
 	fieldset, form, label, legend,
 	table, caption, tbody, tfoot, thead, tr, th, td {
-		-moz-box-sizing: border-box; 
-		-webkit-box-sizing: border-box; 
 		box-sizing: border-box;
-		-webkit-font-smoothing: antialiased; 
 		font-smoothing: antialiased;
 		margin: 0;
 		padding: 0;
@@ -100,7 +97,6 @@ website: 	http://blankenship.xyz
 		opacity: 1;
 		display: inline;
 		padding: 0.2rem 0;
-		-webkit-box-decoration-break: clone;
 		box-decoration-break: clone;
 	}
 
