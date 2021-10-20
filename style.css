@@ -129,13 +129,13 @@ website: 	http://blankenship.xyz
 
 	section ul li {
 		border: 1px solid Gainsboro;
-		padding: 5%;
+		padding: 10%;
 	}
 
 	section ul.logos li {
 	    display: grid;
-	    grid-template-columns: 25% 65%;
-	    grid-gap: 10%;	
+	    grid-template-columns: 20% 65%;
+	    grid-gap: 15%;	
 	}
 
 	section figure img { 
