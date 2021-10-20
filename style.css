@@ -127,36 +127,7 @@ website: 	http://blankenship.xyz
 	}
 
 
-	.newnew {
-		margin: 0 auto;
-		padding-top: 2.5rem;
-	    display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
-	}
-
-	section .newnew li {
-	    display: grid;
-	    grid-template-columns: 25% 65%;
-	    grid-gap: 10%;	
-	}
-
-	section .newnew figure img { 
-		margin: 0;
-		width: 100%;
-	 }
-
-	.nologos {
-		margin: 0 auto 5em;
-		padding: 2.5rem 0 0 0;
-	    display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
-	}
-
-	.nologos li {
-		margin-bottom:  2.5rem;
-	}
+	
 
 
 /* SECTION -- DEM GRIDS */
@@ -168,6 +139,32 @@ website: 	http://blankenship.xyz
 	}
 
 	section ul li { display: inline; }
+
+	section ul {
+		margin: 0 auto;
+		padding-top: 2.5rem;
+	    display: grid;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
+	}
+
+	section ul li {
+	    display: grid;
+	    grid-template-columns: 25% 65%;
+	    grid-gap: 10%;	
+	}
+
+	section ul.nologos {
+		margin: 0 auto 5em;
+		padding: 2.5rem 0 0 0;
+	    display: grid;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
+	}
+
+	section ul.nologos li {
+		margin-bottom:  2.5rem;
+	}
 
 	section figure img { 
 		display: block;
