@@ -143,11 +143,11 @@ website: 	http://blankenship.xyz
 		width: 100%;
 	 }
 
-	section figcaption p {
+	section p {
 		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
 	}
 
-	section figcaption p a {
+	section p a {
 		font: 700 .8rem/1.7rem "futura-pt-bold", sans-serif;
 		letter-spacing: .1rem;
 		text-transform: uppercase;
