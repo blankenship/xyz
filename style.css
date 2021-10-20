@@ -208,16 +208,17 @@ website: 	http://blankenship.xyz
 
 			section ul li {
 				border: 1px solid Gainsboro;
-				padding: 2rem;
+				padding: 1rem;
 			}
 
 			section ul.logos li {
 			    display: block;
+			   	padding: 2rem;
 			}
 
 			section ul.logos li figure {
-				margin: 1rem 0 1rem 1rem;
-				width: 30%;
+				margin: 1rem 0 1.5rem 1rem;
+				width: 35%;
 			}
 
 			section p {
