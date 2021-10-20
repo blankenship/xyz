@@ -68,7 +68,7 @@ website: 	http://blankenship.xyz
 	}
 
 	header {
-		margin: 0 auto 5rem;
+		margin: 0 auto;
 		padding: 0;
 	}
 
@@ -78,6 +78,7 @@ website: 	http://blankenship.xyz
 		color: black;
 		display: block;
 		font: 900 8rem/5.75rem "dharma-gothic-c", sans-serif;
+		padding: 4rem 0;
 		text-align: left;
 		text-transform: uppercase;
   	}
@@ -153,7 +154,7 @@ website: 	http://blankenship.xyz
 		text-transform: uppercase;
 	}
 
-	figure a:hover { opacity: 25%; }
+	figure a:hover { opacity: 15%; }
 
 /* SECTION -- FOOTER */
 
