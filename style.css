@@ -122,7 +122,7 @@ website: 	http://blankenship.xyz
 
 	footer span { display: block; }
 
-.headshot { 
+	.headshot { 
 		border-radius: 50%; 
 	}
 
@@ -178,12 +178,12 @@ website: 	http://blankenship.xyz
 	}
 
 	section figcaption p {
-		font: 400 1.3rem/2rem "futura-pt", sans-serif;
+		font: 400 1.2rem/1.8rem "futura-pt", sans-serif;
 	}
 
 	section figcaption p a {
-		font: 700 1rem/2rem "futura-pt-bold", sans-serif;
-		letter-spacing: .2rem;
+		font: 700 .9rem/1.8rem "futura-pt-bold", sans-serif;
+		letter-spacing: .1rem;
 		text-transform: uppercase;
 	}
 
