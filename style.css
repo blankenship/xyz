@@ -134,8 +134,8 @@ website: 	http://blankenship.xyz
 
 	section ul.logos li {
 	    display: grid;
-	    grid-template-columns: 20% 65%;
-	    grid-gap: 15%;	
+	    grid-template-columns: 22% 65%;
+	    grid-gap: 13%;	
 	}
 
 	section figure img { 
@@ -144,11 +144,11 @@ website: 	http://blankenship.xyz
 	 }
 
 	section figcaption p {
-		font: 400 1.2rem/1.7rem "futura-pt", sans-serif;
+		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
 	}
 
 	section figcaption p a {
-		font: 700 .9rem/1.7rem "futura-pt-bold", sans-serif;
+		font: 700 .8rem/1.7rem "futura-pt-bold", sans-serif;
 		letter-spacing: .1rem;
 		text-transform: uppercase;
 	}
