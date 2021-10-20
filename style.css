@@ -134,11 +134,8 @@ website: 	http://blankenship.xyz
 
 	section {
 		border-top: 4px solid black; 
-		margin-bottom: 8rem;
 		padding-top: 2rem;
 	}
-
-	section ul li { display: inline; }
 
 	section ul {
 		margin: 0 auto;
@@ -178,11 +175,11 @@ website: 	http://blankenship.xyz
 	}
 
 	section figcaption p {
-		font: 400 1.2rem/1.8rem "futura-pt", sans-serif;
+		font: 400 1.2rem/1.7rem "futura-pt", sans-serif;
 	}
 
 	section figcaption p a {
-		font: 700 .9rem/1.8rem "futura-pt-bold", sans-serif;
+		font: 700 .9rem/1.7rem "futura-pt-bold", sans-serif;
 		letter-spacing: .1rem;
 		text-transform: uppercase;
 	}
