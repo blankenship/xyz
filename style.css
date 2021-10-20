@@ -124,6 +124,7 @@ website: 	http://blankenship.xyz
 	    border:  1px solid Gainsboro;
 	    display: grid;
 	    grid-template-columns: 50% 50%;
+	    list-style-type: none;
 	}
 
 	section ul li {
