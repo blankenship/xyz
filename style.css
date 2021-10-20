@@ -81,7 +81,7 @@ website: 	http://blankenship.xyz
 	h1 {
 		color: black;
 		display: block;
-		font: 900 8rem/8rem "dharma-gothic-c", sans-serif;
+		font: 900 8rem/7rem "dharma-gothic-c", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
   	}
@@ -128,8 +128,8 @@ website: 	http://blankenship.xyz
 
 
 	.newnew {
-		margin: 0 auto 5em;
-		padding: 2.5rem 0 0 0;
+		margin: 0 auto;
+		padding-top: 2.5rem;
 	    display: grid;
 	    grid-template-columns: 45% 45%;
 	    grid-gap: 10%;
@@ -171,7 +171,7 @@ website: 	http://blankenship.xyz
 
 	section figure img { 
 		display: block;
-		margin: 0 auto 1rem;
+		margin: 0 auto;
 		width: 100%;
 	 }
 
@@ -181,11 +181,13 @@ website: 	http://blankenship.xyz
 	}
 
 	section figcaption p {
-		font: 400 1.5rem/2rem "futura-pt", sans-serif;
+		font: 400 1.3rem/2rem "futura-pt", sans-serif;
 	}
 
 	section figcaption p a {
-		font: 700 1.5rem/2rem "futura-pt-bold", sans-serif;
+		font: 700 1rem/2rem "futura-pt-bold", sans-serif;
+		letter-spacing: .2rem;
+		text-transform: uppercase;
 	}
 
 /* SECTION -- FOOTER */
