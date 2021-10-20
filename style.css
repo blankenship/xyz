@@ -122,13 +122,15 @@ website: 	http://blankenship.xyz
 	}
 
 	section ul {
+	    border:  1px solid silver;
 	    display: grid;
 	    grid-template-columns: 45% 45%;
 	    grid-gap: 10%;
 	}
 
 	section ul li {
-		margin-bottom:  2.5rem;
+		    border:  1px solid silver;
+	margin-bottom:  2.5rem;
 	}
 
 	section ul.logos li {
