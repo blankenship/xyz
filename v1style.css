@@ -3,11 +3,31 @@
 Styles:		blankenship.xyz
 
 origin: 	1.0 — 12/10/19
-version: 	12.0 — 10/10/21 Update
+version: 	1.1 — 07/07/20 Update
 author: 	Joshua Blankenship
 email: 		joshua@blankenship.xyz
 website: 	http://blankenship.xyz
           
+
+/* SYMBOL */
+
+#cornerbug {
+	position: fixed;
+	right: 0;
+	}
+
+.symbol {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	height: 10vw;
+	width: 10vw;
+}
+
+.symbol .dot,
+.symbol .dash { background-color: black; height: 33%;}
+.symbol .dot { width: 40%; }
+.symbol .dot:nth-child(even) { margin-left: 50%; text-align: right; }
+.symbol .dash { width: 100%; }
 
 /* FOUNDATION */
 
@@ -67,12 +87,12 @@ website: 	http://blankenship.xyz
 		overflow-x: hidden;
 		background: white;
 		margin:  0 auto;
-		padding: 2.5rem 10rem;
+		padding: 2.5vw 10vw;
 		max-width: 1400px;
 	}
 
 	header {
-		margin: 0 auto 5rem;
+		margin: 0 auto 5vw;
 		padding: 0;
 	}
 
@@ -81,7 +101,7 @@ website: 	http://blankenship.xyz
 	h1 {
 		color: black;
 		display: block;
-		font: 900 10rem/7.25rem "dharma-gothic-c", sans-serif;
+		font: 900 10vw/7.25vw "dharma-gothic-c", sans-serif;
 		margin-top: 5rem;
 		text-align: left;
 		text-transform: uppercase;
@@ -90,13 +110,13 @@ website: 	http://blankenship.xyz
 
 	h2 {
 		color: black;
-		font: 400 italic 1.6rem/2.2rem freight-text-pro, serif;
-		margin-bottom: 2.2rem;
+		font: 400 italic 1.6vw/2.2vw freight-text-pro, serif;
+		margin-bottom: 2.2vw;
 		text-align: left;
 	}
 
 	h2 strong {
-		font: 700 1.2rem/2rem "futura-pt-bold", sans-serif;
+		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
 		letter-spacing: 2px;
 		text-transform: uppercase;
 	}
@@ -128,9 +148,9 @@ website: 	http://blankenship.xyz
 	h3 {
 		background-color: black;
 		color: white;
-		font: 700 .9rem/.9rem "futura-pt-bold", sans-serif;
+		font: 700 .9vw/.9vw "futura-pt-bold", sans-serif;
 		letter-spacing: 3px;
-		margin-bottom: 4rem;
+		margin-bottom: 4vw;
 		padding: 2rem;
 		text-align: left;
 		text-transform: uppercase;
@@ -138,7 +158,7 @@ website: 	http://blankenship.xyz
 
 	h4 {
 		color: black;
-		font: 900 6rem/6rem "dharma-gothic-e", sans-serif;
+		font: 900 6vw/6vw "dharma-gothic-e", sans-serif;
 		text-transform: uppercase;
 	}
 
@@ -257,18 +277,18 @@ website: 	http://blankenship.xyz
 	}
 
 	section figcaption p {
-		font: 400 1.3rem/1.6rem "futura-pt", sans-serif;
+		font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
 	}
 
 	section figcaption p a {
-		font: 700 1.3rem/1.6rem "futura-pt-bold", sans-serif;
+		font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
 	}
 
 /* SECTION -- FOOTER */
 
 	footer {
 		border-top: 2px solid black; 
-		margin-bottom: 10rem;
+		margin-bottom: 10vw;
 		display: grid;
 		grid-template-columns: 50% 50%;
 		padding: 1rem 0 0;
@@ -276,7 +296,7 @@ website: 	http://blankenship.xyz
 
 	footer span { 
 		display: inline-block;
-		font: 700 1.2rem/2rem "futura-pt-bold", sans-serif;
+		font: 700 1.2vw/2vw "futura-pt-bold", sans-serif;
 	}
 
 	footer .social a {
@@ -289,7 +309,7 @@ website: 	http://blankenship.xyz
 
 	.arashikage {
 		font-size: 200%;
-		line-height: 1.8rem;
+		line-height: 1.8vw;
 		text-align: right;
 	}
 
@@ -308,7 +328,7 @@ website: 	http://blankenship.xyz
 		@media (min-width: 100px) and (max-width: 800px) {
 
 		body {
-			padding: 5rem;
+			padding: 5vw;
 		}
 
 		.tres,
@@ -320,7 +340,7 @@ website: 	http://blankenship.xyz
 
 		h3 {
 			font: 700 .7rem/.7rem "futura-pt-bold", sans-serif;
-			margin-bottom: 10rem;
+			margin-bottom: 10vw;
 			padding: 1rem;
 		}
 
