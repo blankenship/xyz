@@ -149,6 +149,10 @@ website: 	http://blankenship.xyz
 		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
 	}
 
+	section aside {
+		margin-top:  1rem;
+	}
+	
 	section p a,
 	section aside strong {
 		font: 700 .8rem/1.7rem "futura-pt-bold", sans-serif;
