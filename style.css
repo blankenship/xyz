@@ -117,8 +117,7 @@ website: 	http://blankenship.xyz
 
 	section {
 		border-top: 4px solid black; 
-		margin:  0 auto;
-		padding-top: 3rem;
+		margin:  0 auto 5rem;
 	}
 
 	section ul {
