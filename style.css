@@ -152,6 +152,8 @@ website: 	http://blankenship.xyz
 		text-transform: uppercase;
 	}
 
+	figure a:hover { opacity: 25%; }
+
 /* SECTION -- FOOTER */
 
 	footer {
