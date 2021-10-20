@@ -122,6 +122,41 @@ website: 	http://blankenship.xyz
 
 	footer span { display: block; }
 
+.headshot { 
+		border-radius: 50%; 
+	}
+
+
+	.newnew {
+		margin: 0 auto 5em;
+		padding: 2.5rem 0 0 0;
+	    display: grid;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
+	}
+
+	section .newnew li {
+	    display: grid;
+	    grid-template-columns: 25% 65%;
+	    grid-gap: 10%;	
+	}
+
+	section .newnew figure img { 
+		margin: 0;
+		width: 100%;
+	 }
+
+	.nologos {
+		margin: 0 auto 5em;
+		padding: 2.5rem 0 0 0;
+	    display: grid;
+	    grid-template-columns: 45% 45%;
+	    grid-gap: 10%;
+	}
+
+	.nologos li {
+		margin-bottom:  2.5rem;
+	}
 
 
 /* SECTION -- DEM GRIDS */
@@ -181,113 +216,15 @@ website: 	http://blankenship.xyz
 
 		@media (min-width: 801px) and (max-width: 1000px) {
 
-			.quatro {
-				    display: grid;
-					grid-template-columns: 45% 45%;
-					grid-column-gap: 10%;
-				}
 
 		}
 
 		@media (min-width: 100px) and (max-width: 800px) {
 
-		body {
-			padding: 5rem;
-		}
-
-		.tres,
-		.quatro {
-			    display: block;
-			    margin: 0 auto;
-			    padding: 0;
-			}
-
-		h3 {
-			font: 700 .7rem/.7rem "futura-pt-bold", sans-serif;
-			margin-bottom: 10rem;
-			padding: 1rem;
-		}
-
-		h1 {
-			font: 900 18vw/13.4vw "dharma-gothic-c", sans-serif;
-	  	}
-
-		h2 {
-			font: 400 italic 1.25rem/1.75rem freight-text-pro, serif;
-			margin-bottom: 2rem;
-		}
-
-		h2 strong {
-			font: 700 .9rem/1.75rem "futura-pt-bold", sans-serif;
-		}
-
-		section figcaption p {
-			font: 400 1.25rem/1.75rem "futura-pt", sans-serif;
-			margin-bottom: 3.5rem;
-		}
-
-		section figcaption p a {
-			font: 1.25rem/1.75rem "futura-pt-bold", sans-serif;
-		}
-
-		footer .social a {
-			font-size: 300%;
-		}
-
+		
 		}
 
 
 /* 2021 */
 
-	.headshot { 
-		border-radius: 50%; 
-	}
-
-
-	.newnew {
-		margin: 0 auto 5em;
-		padding: 2.5rem 0 0 0;
-	    display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
-	}
-
-	section .newnew li {
-	    display: grid;
-	    grid-template-columns: 25% 65%;
-	    grid-gap: 10%;	
-	}
-
-	section .newnew figure img { 
-		margin: 0;
-		width: 100%;
-	 }
-
-	 section .newnew figure img.circle {
-	 	border-radius: 50%;
-	 }
-
-	section .newnew figcaption,
-	section .newnew figcaption p { 
-		color: black;
-		margin: 0; 
-	}
-
-	.nologos {
-		margin: 0 auto 5em;
-		padding: 2.5rem 0 0 0;
-	    display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
-	}
-
-	.nologos li {
-		margin-bottom:  2.5rem;
-	}
-
-	section p {
-		font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
-	}
-
-	section p a {
-		font: 700 1.3vw/1.6vw "futura-pt-bold", sans-serif;
+	
