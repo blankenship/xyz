@@ -64,7 +64,6 @@ website: 	http://blankenship.xyz
 
 	body {
 		line-height: 1.5;
-		overflow-x: hidden;
 		background: white;
 		margin:  0 auto;
 		padding: 2.5rem 10rem;
@@ -81,7 +80,7 @@ website: 	http://blankenship.xyz
 	h1 {
 		color: black;
 		display: block;
-		font: 900 8rem/6rem "dharma-gothic-c", sans-serif;
+		font: 900 8rem/5.5rem "dharma-gothic-c", sans-serif;
 		text-align: left;
 		text-transform: uppercase;
   	}
@@ -110,18 +109,6 @@ website: 	http://blankenship.xyz
 		color: black;
 	}
 
-  	footer {
-  		margin: 0;
-  		padding: 0;
-   }
-   
-	footer.contact { 
-		background: white;
-		padding: 7% 0;
-	}
-
-	footer span { display: block; }
-
 	.headshot { 
 		border-radius: 50%; 
 	}
@@ -134,14 +121,11 @@ website: 	http://blankenship.xyz
 
 	section {
 		border-top: 4px solid black; 
-		display:  block;
 		margin:  0 auto;
-		padding-top: 2rem;
+		padding-top: 3rem;
 	}
 
 	section ul {
-		margin: 0 auto;
-		padding-top: 2.5rem;
 	    display: grid;
 	    grid-template-columns: 45% 45%;
 	    grid-gap: 10%;
@@ -159,7 +143,6 @@ website: 	http://blankenship.xyz
 
 	section figure img { 
 		display: block;
-		margin: 0 auto;
 		width: 100%;
 	 }
 
