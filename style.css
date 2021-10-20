@@ -189,7 +189,46 @@ website: 	http://blankenship.xyz
 
 		@media (min-width: 100px) and (max-width: 800px) {
 
-		
+			body {
+				padding: 2rem;
+			}
+
+			h1 {
+				font: 900 4rem/2.875rem "dharma-gothic-c", sans-serif;
+				padding: 2rem 0;
+		  	}
+
+			section {
+				margin:  0 auto 4rem;
+			}
+
+			section ul {
+			    display: block;
+			}
+
+			section ul li {
+				border: 1px solid Gainsboro;
+				padding: 1rem;
+			}
+
+			section ul.logos li {
+			    display: block;
+			    grid-template-columns: 22% 65%;
+			    grid-gap: 13%;	
+			}
+
+			section p {
+				font: 400 1.3rem/2rem "futura-pt", sans-serif;
+			}
+
+			section p a {
+				font: 700 1rem/2rem "futura-pt-bold", sans-serif;
+			}
+
+			footer {
+				margin-bottom: 2rem;
+			}
+				
 		}
 
 
