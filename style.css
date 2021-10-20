@@ -376,7 +376,6 @@ website: 	http://blankenship.xyz
 /* 2021 */
 
 	.headshot { 
-		border: 2px solid black; 
 		border-radius: 50%; 
 	}
 
@@ -421,7 +420,7 @@ website: 	http://blankenship.xyz
 	.nologos li {
 		margin-bottom:  2.5rem;
 	}
-	
+
 	section p {
 		font: 400 1.3vw/1.6vw "futura-pt", sans-serif;
 	}
