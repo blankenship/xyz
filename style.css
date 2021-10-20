@@ -190,7 +190,7 @@ website: 	http://blankenship.xyz
 		@media (min-width: 100px) and (max-width: 800px) {
 
 			body {
-				padding: 2rem;
+				padding: 1rem;
 			}
 
 			h1 {
@@ -199,7 +199,7 @@ website: 	http://blankenship.xyz
 		  	}
 
 			section {
-				margin:  0 auto 4rem;
+				margin:  0 auto 6rem;
 			}
 
 			section ul {
@@ -213,8 +213,11 @@ website: 	http://blankenship.xyz
 
 			section ul.logos li {
 			    display: block;
-			    grid-template-columns: 22% 65%;
-			    grid-gap: 13%;	
+			}
+
+			section ul.logos li figure {
+				margin: 1rem auto;
+				width: 50%;
 			}
 
 			section p {
