@@ -122,15 +122,15 @@ website: 	http://blankenship.xyz
 	}
 
 	section ul {
-	    border:  1px solid silver;
+	    border:  1px solid Gainsboro;
 	    display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
+	    grid-template-columns: 50% 50%;
 	}
 
 	section ul li {
-		    border:  1px solid silver;
-	margin-bottom:  2.5rem;
+		border:  1px solid Gainsboro;
+		margin-bottom:  2.5rem;
+		padding:  5%;
 	}
 
 	section ul.logos li {
