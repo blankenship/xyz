@@ -147,21 +147,13 @@ website: 	http://blankenship.xyz
 	}
 
 	section ul li {
+		margin-bottom:  2.5rem;
+	}
+
+	section ul.logos li {
 	    display: grid;
 	    grid-template-columns: 25% 65%;
 	    grid-gap: 10%;	
-	}
-
-	section ul.nologos {
-		margin: 0 auto 5em;
-		padding: 2.5rem 0 0 0;
-	    display: grid;
-	    grid-template-columns: 45% 45%;
-	    grid-gap: 10%;
-	}
-
-	section ul.nologos li {
-		margin-bottom:  2.5rem;
 	}
 
 	section figure img { 
@@ -169,11 +161,6 @@ website: 	http://blankenship.xyz
 		margin: 0 auto;
 		width: 100%;
 	 }
-
-	section figcaption { 
-		color: black;
-		margin: 0 auto; 
-	}
 
 	section figcaption p {
 		font: 400 1.2rem/1.7rem "futura-pt", sans-serif;
@@ -197,7 +184,7 @@ website: 	http://blankenship.xyz
 
 	footer .social a {
 		color: black;
-		font-size: 1500%;
+		font-size: 150%;
 		margin: 0 5px 20px;
 	}
 
