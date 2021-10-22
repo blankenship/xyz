@@ -74,7 +74,8 @@ website: 	http://blankenship.xyz
 
 /* TYPOGRAPHY */
 
-	h1 {
+	h1,
+	h2 {
 		border-top: 12px solid black; 
 		color: black;
 		display: block;
@@ -199,7 +200,8 @@ website: 	http://blankenship.xyz
 				padding: 1rem;
 			}
 
-			h1 {
+			h1,
+			h2 {
 				font: 900 4rem/2.875rem "dharma-gothic-c", sans-serif;
 				padding: 2rem 0;
 		  	}
