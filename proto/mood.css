@@ -1,0 +1,56 @@
+    * {
+      box-sizing: border-box;
+      height: 100%;
+    }
+
+    body {
+    background: #fff;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+    h1 { display: none; }
+
+    ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    }
+
+    li { height: 100vmax; }
+
+    @keyframes hello {
+    from { opacity: 0; }
+    to   { opacity: .9; }
+    to   { opacity: 1; }
+    }
+
+    li div {
+    animation: hello 2s;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100vmax;
+    }
+
+    @media (min-width: 100px) and (max-width: 1000px) {
+
+        li { height: 100%; }
+
+        li div {
+        background-position: relative;
+         background-attachment: scroll;
+         -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        height: 100vmin;
+        width: 100%
+        padding-top: 56.25%
+          }
+
+    }
