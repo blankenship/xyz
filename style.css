@@ -112,6 +112,7 @@ website: 	http://blankenship.xyz
 		border-radius: 50%; 
 	}
 
+	img.headshot { filter: grayscale(0%); }
 
 	
 
