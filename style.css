@@ -157,7 +157,7 @@ website: 	http://blankenship.xyz
 	section p a,
 	section aside strong,
 	section p strong {
-		font: 700 .8rem/1.7rem "futura-pt-bold", sans-serif;
+		font: 700 .8rem/.8rem "futura-pt-bold", sans-serif;
 		letter-spacing: .1rem;
 		text-transform: uppercase;
 	}
