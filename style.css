@@ -74,6 +74,10 @@ website: 	http://blankenship.xyz
 
 /* TYPOGRAPHY */
 
+	ul {
+	    list-style-type: none;
+	}
+
 	h1,
 	h2 {
 		border-top: 12px solid black; 
