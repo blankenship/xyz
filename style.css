@@ -167,6 +167,12 @@ website: 	http://blankenship.xyz
 		text-transform: uppercase;
 	}
 
+	section#bio p a {
+		font: 700 .8rem/.8rem "futura-pt-bold", sans-serif;
+		letter-spacing: .0;
+		text-transform: none;
+	}
+
 	figure a:hover { opacity: 15%; }
 
 /* SECTION -- FOOTER */
