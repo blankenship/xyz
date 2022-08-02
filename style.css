@@ -173,6 +173,8 @@ website: 	http://blankenship.xyz
 		text-transform: none;
 	}
 
+	section#bio { width: 70%; }
+	
 	figure a:hover { opacity: 15%; }
 
 /* SECTION -- FOOTER */
