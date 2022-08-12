@@ -78,9 +78,9 @@ website: 	http://blankenship.xyz
 	}
 
 	img { 
-		border: 2px solid gray;
+		border: 2px solid white;
 		border-radius:  3rem;
-		padding: 3rem 0;
+		padding: 4rem 0;
 		margin-bottom: 6rem;
 		max-width: 100%; 
 		min-width: 100%; 
