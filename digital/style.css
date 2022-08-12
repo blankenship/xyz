@@ -32,7 +32,7 @@ website: 	http://blankenship.xyz
 	}
 
 	body {
-		background: darkgray;
+		background: #222;
 		color: gray;
 		line-height: 1.5;
 		margin: 0 auto;
