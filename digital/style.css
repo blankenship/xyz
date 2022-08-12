@@ -56,10 +56,10 @@ website: 	http://blankenship.xyz
 	}
 
 	a:hover { 
-		color: black	
+		color: tomato	
 	}
 
-	h1 a { color: black; }
+	h1 a { color: white; }
 	
 	header h2,
 	footer h3:last-child { 
@@ -69,23 +69,18 @@ website: 	http://blankenship.xyz
 /*--BONES */
 
 	section {
-		border-top: 2px solid black; 
-		border-bottom: 2px solid black; 
+		border-top: 2px solid gray; 
+		border-bottom: 2px solid gray; 
 		column-count: 3;
-		column-gap: 2rem;
+		column-gap: 4rem;
 		column-width: 33.3333%;
-		padding: 2rem 0 0;
+		padding: 4rem 0 0;
 	}
 
 	img { 
-		margin-bottom: 2rem;
+		margin-bottom: 4rem;
 		max-width: 100%; 
 		min-width: 100%; 
-	}
-
-	img:hover {
-		filter: grayscale(100%);
-		opacity: 25%;
 	}
 
 	header,
