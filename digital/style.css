@@ -1,0 +1,163 @@
+/* 
+
+styles:		akinterest.com
+		is a digital moodboard
+
+
+		WWWWWWXKKKKKNWNXKKKNWXKKKXKKKKXXKKKKNNKKKXKKKKKKKXXXKKKKKKXXKKKKKKXNWNXKKKKKKNWX0OO00KNNKKKKKKKXWWWW
+		WWWWWKc.....dWO;..'x0:..,c,..'o:....dd'..;'......,c;......::.......,dk;......od'.. ...cl'......:KWWW
+		WWWWW0'     lNk.   dx.  'c.  .c,    :l   '.      ':'      ,,        .l'     .;'        '.      :KWWW
+		WWWWWO.     :Xk.  .ol   :d.  .c,    ,:.  lOc   .oOO:   .xO0c   .,.  .c'   :O0x.   ,'   cO:   .dKNWWW
+		WWWWWx.     ;Kk.  .c;  .dx.  .c,    .,   oNd.  .kNKc   ,KWNl   ':.  .c'   oNWO'   :,   oNo   'OWWWWW
+		WWWWWd.     '0k.  .;.  .Ok.  .c,    ..   oNd.  .kNKc   ,KWNl   'c.  .:'   oNWO'   :,   oNo   'OWWWWW
+		WWWWNl      .Ok.   ..  ;Xk.  .c,     .   oNd.  .kNKc   ,KWNl   ':.  .c'   lNWK;   ,c;;:kNo   'OWWWWW
+		WWWWNc  ..  .kk.       oNx.  .c,         oNd.  .kNKc   'xKXl   ':.  .c'   :OXNx.   :0WWWNl   'OWWWWW
+		WWWWX;  ..  .dk.      .xWk.  .c,         oNd.  .kNKc     'kl        cx'    .cXNd.   ,kWWNl   'OWWWWW
+		WWWWK,  ''   ok.      .xWx.  .c,  ..     oNd.  .kNKc    .,kl       .ok'    .lXWNO,   .xNNo   'OWWWWW
+		WWWWO'  ,,   cx.       lNx.  .c,  ..     oNd.  .kNKc   'kXXl   .'   .l'   c0XN0OOd,   '0No   'OWWWWW
+		WWWWk.  ;:   :d.   .   ;Kk.  .c,  ',     oNd.  .kNKc   ,KWNl   'c.  .c'   lNW0,  ':.  .dNo   'OWWWWW
+		WWWWx.  cc   ;o.   ..  .Ok.  .c,  ':.    oNd.  .kNKc   ,KWNl   'c.  .c'   lNWO.  .c.   oNo   'OWWWWW
+		WWWWo   ..   'l.  .;.  .dx.  .c,  ,l.    oNd.  .kNKc   ,KWNl   ':.  .c'   oNWO.  .:.   oNo   '0WWWWW
+		WWWNl        .c.  .:,   :d.  .c,  ,d,    oNd.  .kNKc   ,KWNl   'c.  .c'   oNWO.  .:.   oNo   '0WWWWW
+		WWWXc   ;;   .;.  .l:   'c.  .c,  ,k:    oNd.  .kNKc   .;:o:   ':.  .c'   .:cl.   ..   oNo   '0WWWWW
+		WWWK;  .xk.  .,.  .oo   .;.  .c,  ,Ol    oNd.  .kNKc      ',   'c.  .:.      ;;       .kNo   'OWWWWW
+		WWWNxlldKXxlloxdllo00olloxdlldOxllxX0ollo0W0olldKNNOllllllxxollxOdlloxdllllloO0dcc::coONWOollxXWWWWW
+
+
+origin: 	1.0 — 01/05/21
+version: 	1.1 — 01/06/21 Update
+author: 	Joshua Blankenship
+email: 		joshua@blankenship.xyz
+website: 	http://blankenship.xyz
+
+/*--FOUNDATION */
+
+	*, html, body, div, span, object, iframe,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li, img, figure, figcaption,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box; 
+		box-sizing: border-box;
+		-webkit-font-smoothing: antialiased; 
+		font-smoothing: antialiased;
+		margin: 0;
+		padding: 0;
+		outline: none;
+		}
+
+	html {
+    	font-size: 16px;
+	}
+
+	body {
+		background: #f5f5f5;
+		color: black;
+		line-height: 1.5;
+		margin: 0 auto;
+		padding: 5rem;
+		max-width: 3000px;
+	}
+
+/*--TYPOGRAPHY */
+
+	h1,
+	h2,
+	h3 {
+		font: 900 10em/1em "dharma-gothic-c", sans-serif;
+		text-transform: uppercase;
+  	}
+
+	a { 
+		color: silver;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	a:hover { 
+		color: black	
+	}
+
+	h1 a { color: black; }
+	
+	header h2,
+	footer h3:last-child { 
+		text-align: right;
+	}
+
+/*--BONES */
+
+	section {
+		border-top: 2px solid black; 
+		border-bottom: 2px solid black; 
+		column-count: 3;
+		column-gap: 2rem;
+		column-width: 33.3333%;
+		padding: 2rem 0 0;
+	}
+
+	img { 
+		margin-bottom: 2rem;
+		max-width: 100%; 
+		min-width: 100%; 
+	}
+
+	img:hover {
+		filter: grayscale(100%);
+		opacity: 25%;
+	}
+
+	header,
+	footer {
+		display: grid;
+		grid-template-columns: 65% 35%;
+	}
+
+/* SCRUNCH */
+
+	@media (min-width: 2000px) and (max-width: 3000px) {
+
+		section {
+			column-count: 4;
+			column-gap: 2rem;
+			column-width: 25%;
+		}	
+	}
+
+	@media (min-width: 801px) and (max-width: 1200px) {
+
+		section {
+			column-count: 2;
+			column-gap: 2rem;
+			column-width: 50%;
+		}		
+
+		h1,
+		h2,
+		h3 {
+			font: 900 7em/1em "dharma-gothic-c", sans-serif;
+	  	}
+	}
+
+	@media (min-width: 1px) and (max-width: 800px) {
+
+		body {
+			padding: 2rem;
+		}
+
+		section {
+			column-count: 1;
+			column-gap: 0;
+			column-width: 100%;
+		}
+
+
+		h1,
+		h2,
+		h3 {
+			font: 900 3.2em/1em "dharma-gothic-c", sans-serif;
+	  	}
+	}2
