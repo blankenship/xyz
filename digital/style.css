@@ -33,7 +33,7 @@ website: 	http://blankenship.xyz
 
 	body {
 		background: #333;
-		color: white;
+		color: gray;
 		line-height: 1.5;
 		margin: 0 auto;
 		padding: 5rem;
@@ -59,7 +59,7 @@ website: 	http://blankenship.xyz
 		color: tomato	
 	}
 
-	h1 a { color: white; }
+	h1 a { color: gray; }
 	
 	header h2,
 	footer h3:last-child { 
