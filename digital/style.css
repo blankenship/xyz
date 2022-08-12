@@ -32,7 +32,7 @@ website: 	http://blankenship.xyz
 	}
 
 	body {
-		background: #333;
+		background: darkslategray;
 		color: gray;
 		line-height: 1.5;
 		margin: 0 auto;
@@ -50,13 +50,13 @@ website: 	http://blankenship.xyz
   	}
 
 	a { 
-		color: silver;
+		color: gray;
 		display: inline-block;
 		text-decoration: none;
 	}
 
 	a:hover { 
-		color: tomato	
+		color: white;	
 	}
 
 	h1 a { color: gray; }
@@ -98,7 +98,7 @@ website: 	http://blankenship.xyz
 
 		section {
 			column-count: 4;
-			column-gap: 2rem;
+			column-gap: 6rem;
 			column-width: 25%;
 		}	
 	}
@@ -107,7 +107,7 @@ website: 	http://blankenship.xyz
 
 		section {
 			column-count: 2;
-			column-gap: 2rem;
+			column-gap: 4rem;
 			column-width: 50%;
 		}		
 
