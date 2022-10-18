@@ -127,14 +127,11 @@ website: 	http://blankenship.xyz
 		margin:  0 auto 10rem;
 	}
 
-	section ul {
-	    list-style-type: none;
-	}
-
-	section#newnew {
+	section#newnew ul {
 	    display: grid;
-	    grid-template-columns: 25% 25% 25%;
+	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
+	    list-style-type: none;
 	}
 
 	section#newnew figcaption {
