@@ -145,6 +145,17 @@ website: 	http://blankenship.xyz
 	    grid-gap: 13%;	
 	}
 
+	section ul#newnew {
+	    display: grid;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-gap: 10%;
+	    list-style-type: none;
+	}
+
+	section ul.newnewposters li {
+	    
+	}
+
 	section figure img { 
 		display: block;
 		width: 100%;
