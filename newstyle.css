@@ -131,14 +131,10 @@ website: 	http://blankenship.xyz
 	    list-style-type: none;
 	}
 
-	section ul {
-		list-style-type: none;
-	}
-
 	section#newnew {
 	    display: grid;
 	    grid-template-columns: 30% 30% 30%;
-	    grid-gap: 10%;
+	    grid-gap: 5%;
 	}
 
 	section ul.newnewposters li {
