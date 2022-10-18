@@ -137,6 +137,11 @@ website: 	http://blankenship.xyz
 	    grid-gap: 5%;
 	}
 
+	section#newnew figcaption {
+		padding-top: 1rem;
+		text-align: center;
+	}
+
 	section ul li {
 		border: 1px solid Gainsboro;
 		padding: 10%;
