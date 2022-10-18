@@ -128,21 +128,18 @@ website: 	http://blankenship.xyz
 	}
 
 	section ul {
-	    border:  1px solid Gainsboro;
-	    display: grid;
-	    grid-template-columns: 50% 50%;
 	    list-style-type: none;
 	}
 
-	section ul li {
-		border: 1px solid Gainsboro;
-		padding: 10%;
+	section ul#newnew {
+	    display: grid;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-gap: 10%;
+	    list-style-type: none;
 	}
 
-	section ul.logos li {
-	    display: grid;
-	    grid-template-columns: 22% 65%;
-	    grid-gap: 13%;	
+	section ul.newnewposters li {
+	    
 	}
 
 	section figure img { 
