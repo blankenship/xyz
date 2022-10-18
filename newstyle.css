@@ -137,8 +137,9 @@ website: 	http://blankenship.xyz
 	    grid-gap: 5%;
 	}
 
-	section ul.newnewposters li {
-	    
+	section ul li {
+		border: 1px solid Gainsboro;
+		padding: 10%;
 	}
 
 	section figure img { 
