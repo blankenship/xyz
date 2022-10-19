@@ -139,6 +139,7 @@ website: 	http://blankenship.xyz
 	section p a {
 		font: 600 1.1rem/1.3rem "neue-haas-unica", sans-serif;
  		letter-spacing: -0.015rem;
+ 		margin-bottom: .5rem;
 	}
 
 	figure a:hover { opacity: 15%; }
@@ -146,12 +147,12 @@ website: 	http://blankenship.xyz
 /* SECTION -- FOOTER */
 
 	footer {
-		border-top: 4px solid #0a2540; 
+		border-top: 3px solid #0a2540; 
 		margin-bottom: 10rem;
 		display: grid;
-		font: 600 1.1rem/1.3rem "neue-haas-unica", sans-serif;
+		font: 600 .9em/1.3rem "neue-haas-unica", sans-serif;
 		grid-template-columns: 50% 50%;
-		padding: 1rem 0 0;
+		padding: 0;
 	}
 
 	footer .copyright {
