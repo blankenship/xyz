@@ -153,15 +153,13 @@ website: 	http://blankenship.xyz
 		padding: 1rem 0 0;
 	}
 
-	footer .social a {
+	footer .copyright {
 		color: black;
 		font-size: 150%;
 		margin: 0 5px 20px;
 	}
 
-	footer .social a:hover { color: silver; }
-
-	.arashikage {
+	footer .bye {
 		font-size: 200%;
 		line-height: 1.8rem;
 		text-align: right;
