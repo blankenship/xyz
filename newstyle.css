@@ -78,47 +78,27 @@ website: 	http://blankenship.xyz
 	    list-style-type: none;
 	}
 
-	h1,
-	h2 {
-		border-top: 12px solid black; 
-		color: black;
-		display: block;
-		font: 900 8rem/5.75rem "dharma-gothic-c", sans-serif;
+  	h1 {  
+ 		border-top: 12px solid black; 
+ 		font: 500 2rem/2.5rem italic "swear-display", sans-serif;
+		text-align: center;
 		padding: 4rem 0;
-		text-align: left;
-		text-transform: uppercase;
-  	}
+	}
+
+	h1 em {  
+ 		font: 600 2rem/2.5rem normal "neue-haas-unica", sans-serif;
+	}
 
 	a { 
 		color: black;
 		display: inline-block;
 		text-decoration: none;
+		border-bottom:  1px solid silver;
 	}
 
 	a:hover { 
 		color: silver;	
-	}
-
-	.highlight {
-		background-color: rgba(255, 224, 0, 0.7);
-		opacity: 1;
-		display: inline;
-		padding: 0.2rem 0.1rem;
-		box-decoration-break: clone;
-	}
-
-	a.highlight:hover  {
-		background-color: silver;
-		color: black;
-	}
-
-	.headshot { 
-		border-radius: 50%; 
-	}
-
-	img.headshot { filter: grayscale(0%); }
-
-	
+	}	
 
 
 /* SECTION -- DEM GRIDS */
@@ -131,7 +111,6 @@ website: 	http://blankenship.xyz
 	    display: grid;
 	    grid-template-columns: 30% 30% 30%;
 	    grid-gap: 5%;
-	    list-style-type: none;
 	}
 
 	section#newnew figcaption {
