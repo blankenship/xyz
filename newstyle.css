@@ -86,14 +86,14 @@ website: 	http://blankenship.xyz
 	}
 
 	h1 em {  
- 		font: 600 normal 2rem/2.5rem "neue-haas-unica", sans-serif;
+ 		font: 600 normal 1.8rem/2.5rem "neue-haas-unica", sans-serif;
+ 		letter-spacing: -0.025rem;
 	}
 
-	h1 a { 
+	a { 
 		color: black;
 		display: inline-block;
 		text-decoration: none;
-		border-bottom:  1px solid silver;
 	}
 
 	a:hover { 
@@ -132,14 +132,13 @@ website: 	http://blankenship.xyz
 
 	section p {
 		color:  silver;
-		font: 400 1rem/1.5rem "neue-haas-unica", sans-serif;
+ 		font: 500 italic 1rem/1.5rem "swear-display", serif;
 	}
 
 	section p a {
 		color:  #000;
 		font: 600 1rem/1.5rem "neue-haas-unica", sans-serif;
-		letter-spacing: .1rem;
-		text-transform: uppercase;
+ 		letter-spacing: -0.025rem;
 	}
 
 	figure a:hover { opacity: 15%; }
