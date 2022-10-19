@@ -131,9 +131,11 @@ website: 	http://blankenship.xyz
 	}
 
 	section figure img { 
+		border-radius: 2px;
 		display: block;
 		width: 100%;
-	 }
+		box-shadow: 0 0.250em 0.375em rgba(50,50,93,.09), 0 0.063em 0.188em rgba(0,0,0,.08);
+	}
 
 	section p {
  		color:  #425466;
