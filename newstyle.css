@@ -82,7 +82,7 @@ website: 	http://blankenship.xyz
  		border-top: 12px solid black; 
  		font: 500 italic 2rem/2.5rem "swear-display", serif;
 		text-align: center;
-		padding: 4rem 8rem;
+		padding: 3rem 10rem 4rem;
 	}
 
 	h1 em {  
@@ -132,13 +132,13 @@ website: 	http://blankenship.xyz
 
 	section p {
 		color:  silver;
- 		font: 500 italic 1rem/1.5rem "swear-display", serif;
+ 		font: 500 italic 1.25rem/1.25rem "swear-display", serif;
 	}
 
 	section p a {
 		color:  #000;
-		font: 600 1rem/1.5rem "neue-haas-unica", sans-serif;
- 		letter-spacing: -0.025rem;
+		font: 600 1.25rem/1.25rem "neue-haas-unica", sans-serif;
+ 		letter-spacing: -0.015rem;
 	}
 
 	figure a:hover { opacity: 15%; }
