@@ -60,10 +60,11 @@ website: 	http://blankenship.xyz
 	img { filter: grayscale(100%); }
 
 	body {
+		color:  #0a2540;
 		line-height: 1.5;
 		background: white;
 		margin:  0 auto;
-		padding: 2.5rem 10rem;
+		padding: 3rem 6rem;
 		max-width: 1500px;
 	}
 
@@ -79,7 +80,7 @@ website: 	http://blankenship.xyz
 	}
 
   	h1 {  
- 		border-top: 12px solid black; 
+ 		border-top: 12px #0a2540; 
  		font: 500 italic 2rem/2.5rem "swear-display", serif;
 		text-align: center;
 		padding: 3rem 10rem 4rem;
@@ -91,7 +92,7 @@ website: 	http://blankenship.xyz
 	}
 
 	a { 
-		color: black;
+		color: #0a2540;
 		display: inline-block;
 		text-decoration: none;
 	}
@@ -131,12 +132,10 @@ website: 	http://blankenship.xyz
 	 }
 
 	section p {
-		color:  silver;
  		font: 500 italic 1.1rem/1.3rem "swear-display", serif;
 	}
 
 	section p a {
-		color:  #000;
 		font: 600 1.1rem/1.3rem "neue-haas-unica", sans-serif;
  		letter-spacing: -0.015rem;
 	}
@@ -146,7 +145,7 @@ website: 	http://blankenship.xyz
 /* SECTION -- FOOTER */
 
 	footer {
-		border-top: 4px solid black; 
+		border-top: 4px solid #0a2540; 
 		margin-bottom: 10rem;
 		display: grid;
 		font: 600 1.1rem/1.3rem "neue-haas-unica", sans-serif;
