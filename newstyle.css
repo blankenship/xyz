@@ -80,10 +80,9 @@ website: 	http://blankenship.xyz
 	}
 
   	h1 {  
- 		border-top: 12px #0a2540; 
  		font: 500 italic 2rem/2.5rem "swear-display", serif;
 		text-align: center;
-		padding: 3rem 10rem 4rem;
+		padding: 2rem 10rem 4rem;
 	}
 
 	h1 em {  
@@ -110,8 +109,8 @@ website: 	http://blankenship.xyz
 
 	section#newnew ul {
 	    display: grid;
-	    grid-template-columns: 32% 32% 32%;
-	    grid-gap: 2%;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-gap: 5%;
 	}
 
 	section#newnew figcaption {
@@ -124,6 +123,7 @@ website: 	http://blankenship.xyz
 	}
 
 	section ul li {
+		margin-bottom: 2rem;
 	}
 
 	section figure img { 
@@ -132,6 +132,7 @@ website: 	http://blankenship.xyz
 	 }
 
 	section p {
+ 		color:  #425466;
  		font: 500 italic 1.1rem/1.3rem "swear-display", serif;
 	}
 
