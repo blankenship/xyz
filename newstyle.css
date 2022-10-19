@@ -80,9 +80,10 @@ website: 	http://blankenship.xyz
 
   	h1 {  
  		border-top: 12px solid black; 
- 		font: 500 2rem/2.5rem italic "swear-display", sans-serif;
+ 		font: 500 italic 2rem/2.5rem "swear-display", serif;
 		text-align: center;
 		padding: 4rem 0;
+		width:  75%;
 	}
 
 	h1 em {  
