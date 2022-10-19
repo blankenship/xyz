@@ -81,7 +81,8 @@ website: 	http://blankenship.xyz
 
 	header aside {
 		color:  #15be53;
-		font:  800 normal 2rem/2rem "swear-display-cilati", serif;
+		font:  800 normal 4rem/4rem "swear-display-cilati", serif;
+		text-align: center;
 	}
 
   	h1 {  
