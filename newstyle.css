@@ -109,8 +109,8 @@ website: 	http://blankenship.xyz
 
 	section#newnew ul {
 	    display: grid;
-	    grid-template-columns: 30% 30% 30%;
-	    grid-gap: 5%;
+	    grid-template-columns: 32% 32% 32%;
+	    grid-gap: 2%;
 	}
 
 	section#newnew figcaption {
@@ -132,12 +132,12 @@ website: 	http://blankenship.xyz
 
 	section p {
 		color:  silver;
- 		font: 500 italic 1.25rem/1.25rem "swear-display", serif;
+ 		font: 500 italic 1.1rem/1.3rem "swear-display", serif;
 	}
 
 	section p a {
 		color:  #000;
-		font: 600 1.25rem/1.25rem "neue-haas-unica", sans-serif;
+		font: 600 1.1rem/1.3rem "neue-haas-unica", sans-serif;
  		letter-spacing: -0.015rem;
 	}
 
@@ -149,7 +149,7 @@ website: 	http://blankenship.xyz
 		border-top: 4px solid black; 
 		margin-bottom: 10rem;
 		display: grid;
-		font: 600 1.25rem/1.25rem "neue-haas-unica", sans-serif;
+		font: 600 1.1rem/1.3rem "neue-haas-unica", sans-serif;
 		grid-template-columns: 50% 50%;
 		padding: 1rem 0 0;
 	}
