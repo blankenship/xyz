@@ -79,6 +79,11 @@ website: 	http://blankenship.xyz
 	    list-style-type: none;
 	}
 
+	header aside {
+		color:  #15be53;
+		font:  800 normal 2rem/2rem "swear-display-cilati", serif;
+	}
+
   	h1 {  
  		font: 500 italic 2rem/2.5rem "swear-display", serif;
 		text-align: center;
@@ -133,7 +138,7 @@ website: 	http://blankenship.xyz
 
 	section p {
  		color:  #425466;
- 		font: 500 italic 1.1rem/1.3rem "swear-display", serif;
+ 		font: 500 italic 1.1rem/1.3rem "swear-text", serif;
 	}
 
 	section p a {
