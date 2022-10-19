@@ -131,7 +131,7 @@ website: 	http://blankenship.xyz
 	}
 
 	section figure img { 
-		border-radius: 2px;
+		border-radius: 3px;
 		display: block;
 		width: 100%;
 		box-shadow: 0 0.938em 2.188em rgba(50,50,93,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
