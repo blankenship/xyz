@@ -132,30 +132,15 @@ website: 	http://blankenship.xyz
 
 	section p,
 	section aside {
-		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
-	}
-
-	section aside {
-		margin-top:  1rem;
+		font: 400 1.1rem/1.7rem "neue-haas-unica", sans-serif;
 	}
 
 	section p a,
 	section aside strong,
 	section p strong {
-		font: 700 .8rem/.8rem "futura-pt-bold", sans-serif;
+		font: 700 .8rem/.8rem "neue-haas-unica", sans-serif;
 		letter-spacing: .1rem;
 		text-transform: uppercase;
-	}
-
-	section#bio p a {
-		font: 700 1.1rem/1.7rem "futura-pt", sans-serif;
-		letter-spacing: .0;
-		text-transform: none;
-	}
-
-	section#bio { 
-		margin:  0 0 10rem 0;
-		width: 70%; 
 	}
 
 	figure a:hover { opacity: 15%; }
