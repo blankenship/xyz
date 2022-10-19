@@ -130,15 +130,14 @@ website: 	http://blankenship.xyz
 		width: 100%;
 	 }
 
-	section p,
-	section aside {
-		font: 400 1.1rem/1.7rem "neue-haas-unica", sans-serif;
+	section p {
+		color:  silver;
+		font: 400 1rem/1.5rem "neue-haas-unica", sans-serif;
 	}
 
-	section p a,
-	section aside strong,
-	section p strong {
-		font: 700 .8rem/.8rem "neue-haas-unica", sans-serif;
+	section p a {
+		color:  #000;
+		font: 600 1rem/1.5rem "neue-haas-unica", sans-serif;
 		letter-spacing: .1rem;
 		text-transform: uppercase;
 	}
