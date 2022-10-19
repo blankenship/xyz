@@ -90,7 +90,7 @@ website: 	http://blankenship.xyz
  		font: 600 2rem/2.5rem normal "neue-haas-unica", sans-serif;
 	}
 
-	a { 
+	h1 a { 
 		color: black;
 		display: inline-block;
 		text-decoration: none;
