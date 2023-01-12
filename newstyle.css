@@ -178,6 +178,20 @@ website: 	http://blankenship.xyz
 
 		@media (min-width: 100px) and (max-width: 800px) {
 
+body {
+		padding: 2rem 4rem;
+	}
+
+	header {
+		margin: 0 auto;
+		padding: 0 6rem;
+	}
+
+
+section#newnew ul {
+	    display: block;
+	}
+
 		
 		}
 
