@@ -154,10 +154,10 @@ website: 	http://blankenship.xyz
 /* SECTION -- FOOTER */
 
 	footer {
-		border-top: 3px solid #0a2540; 
+		border-top: 1px solid #0a2540; 
 		margin-bottom: 10rem;
 		display: grid;
-		font: 600 .9em/1.3rem "neue-haas-unica", sans-serif;
+		font: 600 .9em/2rem "neue-haas-unica", sans-serif;
 		grid-template-columns: 50% 50%;
 		padding: 0;
 	}
