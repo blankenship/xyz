@@ -179,12 +179,12 @@ website: 	http://blankenship.xyz
 		@media (min-width: 100px) and (max-width: 800px) {
 
 body {
-		padding: 2rem 4rem;
+		padding: 2rem;
 	}
 
 h1 {  
  		font: 500 italic 1.5rem/2rem "swear-display", serif;
-		padding: 2rem 4rem 4rem;
+		padding: 2rem 2rem 4rem;
 	}
 
 	h1 em {  
@@ -193,13 +193,13 @@ h1 {
 
 	header {
 		margin: 0 auto;
-		padding: 0 6rem;
+		padding: 0;
 	}
 
 
 section#newnew ul {
 	    display: block;
-	    margin-bttom: 2rem;
+	    margin-bottom: 2rem;
 	}
 
 		
