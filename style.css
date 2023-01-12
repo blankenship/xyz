@@ -57,19 +57,18 @@ website: 	http://blankenship.xyz
 	    }
 	}
 
-	img { filter: grayscale(100%); }
-
 	body {
+		color:  #0a2540;
 		line-height: 1.5;
 		background: white;
 		margin:  0 auto;
-		padding: 2.5rem 10rem;
+		padding: 3rem 6rem;
 		max-width: 1500px;
 	}
 
 	header {
 		margin: 0 auto;
-		padding: 0;
+		padding: 0 6rem;
 	}
 
 /* TYPOGRAPHY */
@@ -78,47 +77,33 @@ website: 	http://blankenship.xyz
 	    list-style-type: none;
 	}
 
-	h1,
-	h2 {
-		border-top: 12px solid black; 
-		color: black;
-		display: block;
-		font: 900 8rem/5.75rem "dharma-gothic-c", sans-serif;
-		padding: 4rem 0;
-		text-align: left;
-		text-transform: uppercase;
-  	}
+	header aside {
+		color:  #15be53;
+		font:  800 normal 4rem/4rem "swear-display-cilati", serif;
+		text-align: center;
+	}
+
+  	h1 {  
+ 		font: 500 italic 2rem/2.5rem "swear-display", serif;
+		text-align: center;
+		padding: 2rem 10rem 4rem;
+	}
+
+	h1 em {  
+ 		font: 600 normal 1.8rem/2.5rem "neue-haas-unica", sans-serif;
+ 		letter-spacing: -0.035rem;
+ 		display: block;
+	}
 
 	a { 
-		color: black;
+		color: #0a2540;
 		display: inline-block;
 		text-decoration: none;
 	}
 
 	a:hover { 
 		color: silver;	
-	}
-
-	.highlight {
-		background-color: rgba(255, 224, 0, 0.7);
-		opacity: 1;
-		display: inline;
-		padding: 0.2rem 0.1rem;
-		box-decoration-break: clone;
-	}
-
-	a.highlight:hover  {
-		background-color: silver;
-		color: black;
-	}
-
-	.headshot { 
-		border-radius: 50%; 
-	}
-
-	img.headshot { filter: grayscale(0%); }
-
-	
+	}	
 
 
 /* SECTION -- DEM GRIDS */
@@ -127,80 +112,60 @@ website: 	http://blankenship.xyz
 		margin:  0 auto 10rem;
 	}
 
-	section ul {
-	    border:  1px solid Gainsboro;
+	section#newnew ul {
 	    display: grid;
-	    grid-template-columns: 50% 50%;
-	    list-style-type: none;
+	    grid-template-columns: 30% 30% 30%;
+	    grid-gap: 5%;
+	}
+
+	section#newnew figcaption {
+		padding-top: 1rem;
+		text-align: center;
+	}
+
+	section#newnew figcaption a {
+		display:  block;
 	}
 
 	section ul li {
-		border: 1px solid Gainsboro;
-		padding: 10%;
-	}
-
-	section ul.logos li {
-	    display: grid;
-	    grid-template-columns: 22% 65%;
-	    grid-gap: 13%;	
+		margin-bottom: 2rem;
 	}
 
 	section figure img { 
+		border-radius: 3px;
 		display: block;
 		width: 100%;
-	 }
-
-	section p,
-	section aside {
-		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
+		box-shadow: 0 0.938em 2.188em rgba(50,50,93,.1), 0 0.313em 0.938em rgba(0,0,0,.07);	
 	}
 
-	section aside {
-		margin-top:  1rem;
+	section p {
+ 		color:  #425466;
+ 		font: 500 italic 1.1rem/1.3rem "swear-text", serif;
 	}
 
-	section p a,
-	section aside strong,
-	section p strong {
-		font: 700 .8rem/.8rem "futura-pt-bold", sans-serif;
-		letter-spacing: .1rem;
-		text-transform: uppercase;
+	section p a {
+		font: 600 1.1rem/1.3rem "neue-haas-unica", sans-serif;
+ 		letter-spacing: -0.015rem;
+ 		margin-bottom: .5rem;
 	}
 
-	section#bio p a {
-		font: 700 1.1rem/1.7rem "futura-pt", sans-serif;
-		letter-spacing: .0;
-		text-transform: none;
-	}
-
-	section#bio { 
-		margin:  0 0 10rem 0;
-		width: 70%; 
-	}
-
-	figure a:hover { opacity: 15%; }
+	figure a:hover { opacity: 75%; }
 
 /* SECTION -- FOOTER */
 
 	footer {
-		border-top: 4px solid black; 
+		border-top: 3px solid #0a2540; 
 		margin-bottom: 10rem;
 		display: grid;
+		font: 600 .9em/1.3rem "neue-haas-unica", sans-serif;
 		grid-template-columns: 50% 50%;
-		padding: 1rem 0 0;
+		padding: 0;
 	}
 
-	footer .social a {
-		color: black;
-		font-size: 150%;
-		margin: 0 5px 20px;
+	footer .copyright {
 	}
 
-	footer .social a:hover { color: silver; }
-
-	.arashikage {
-		font-size: 200%;
-		line-height: 1.8rem;
+	footer .bye {
 		text-align: right;
 	}
 
@@ -213,53 +178,33 @@ website: 	http://blankenship.xyz
 
 		@media (min-width: 100px) and (max-width: 800px) {
 
-			body {
-				padding: 1rem;
-			}
+body {
+		padding: 2rem;
+	}
 
-			h1,
-			h2 {
-				font: 900 4rem/2.875rem "dharma-gothic-c", sans-serif;
-				padding: 2rem 0;
-		  	}
+h1 {  
+ 		font: 500 italic 1.2rem/1.6rem "swear-display", serif;
+		padding: 1rem 1rem 4rem;
+	}
 
-			section {
-				margin:  0 auto 6rem;
-			}
+	h1 em {  
+ 		font: 600 normal 1.2rem/1.6rem "neue-haas-unica", sans-serif;
+	}
 
-			section ul {
-			    display: block;
-			}
+	header {
+		margin: 0 auto;
+		padding: 0;
+	}
 
-			section ul li {
-				border: 1px solid Gainsboro;
-				padding: 1rem;
-			}
 
-			section ul.logos li {
-			    display: block;
-			   	padding: 2rem;
-			}
+section#newnew ul {
+	    display: block;
+	}
 
-			section ul.logos li figure {
-				margin: 1rem 0 2rem 1rem;
-				width: 35%;
-			}
-
-			section p,
-			section aside {
-				font: 400 1.3rem/2rem "futura-pt", sans-serif;
-			}
-
-			section p a,
-			section aside strong {
-				font: 700 1rem/2rem "futura-pt-bold", sans-serif;
-			}
-
-			footer {
-				margin-bottom: 2rem;
-			}
-				
+section#newnew li {
+		    margin-bottom: 4rem;
+}
+		
 		}
 
 

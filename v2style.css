@@ -1,0 +1,268 @@
+/* 
+
+Styles:		blankenship.xyz
+
+origin: 	1.0 — 12/10/19
+version: 	12.0 — 10/10/21 Update
+author: 	Joshua Blankenship
+email: 		joshua@blankenship.xyz
+website: 	http://blankenship.xyz
+          
+
+/* FOUNDATION */
+
+	*, html, body, div, span, object, iframe,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, img, ins, kbd, q, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li, img, figure, figcaption,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		box-sizing: border-box;
+		font-smoothing: antialiased;
+		margin: 0;
+		padding: 0;
+		outline: none;
+		}
+
+	@keyframes hello {
+		from { opacity: 0; }
+		to   { opacity: 1; }
+	}
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+	html {
+    	font-size: 16px;
+	}
+
+	@media(min-width:700px) {
+	    html {
+	        font-size: 16px
+	    }
+	}
+
+	@media(min-width:1200px) {
+	    html {
+	        font-size: 17px
+	    }
+	}
+
+	@media(min-width:1400px) {
+	    html {
+	        font-size: 18px
+	    }
+	}
+
+	img { filter: grayscale(100%); }
+
+	body {
+		line-height: 1.5;
+		background: white;
+		margin:  0 auto;
+		padding: 2.5rem 10rem;
+		max-width: 1500px;
+	}
+
+	header {
+		margin: 0 auto;
+		padding: 0;
+	}
+
+/* TYPOGRAPHY */
+
+	ul {
+	    list-style-type: none;
+	}
+
+	h1,
+	h2 {
+		border-top: 12px solid black; 
+		color: black;
+		display: block;
+		font: 900 8rem/5.75rem "dharma-gothic-c", sans-serif;
+		padding: 4rem 0;
+		text-align: left;
+		text-transform: uppercase;
+  	}
+
+	a { 
+		color: black;
+		display: inline-block;
+		text-decoration: none;
+	}
+
+	a:hover { 
+		color: silver;	
+	}
+
+	.highlight {
+		background-color: rgba(255, 224, 0, 0.7);
+		opacity: 1;
+		display: inline;
+		padding: 0.2rem 0.1rem;
+		box-decoration-break: clone;
+	}
+
+	a.highlight:hover  {
+		background-color: silver;
+		color: black;
+	}
+
+	.headshot { 
+		border-radius: 50%; 
+	}
+
+	img.headshot { filter: grayscale(0%); }
+
+	
+
+
+/* SECTION -- DEM GRIDS */
+
+	section {
+		margin:  0 auto 10rem;
+	}
+
+	section ul {
+	    border:  1px solid Gainsboro;
+	    display: grid;
+	    grid-template-columns: 50% 50%;
+	    list-style-type: none;
+	}
+
+	section ul li {
+		border: 1px solid Gainsboro;
+		padding: 10%;
+	}
+
+	section ul.logos li {
+	    display: grid;
+	    grid-template-columns: 22% 65%;
+	    grid-gap: 13%;	
+	}
+
+	section figure img { 
+		display: block;
+		width: 100%;
+	 }
+
+	section p,
+	section aside {
+		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
+	}
+
+	section aside {
+		margin-top:  1rem;
+	}
+
+	section p a,
+	section aside strong,
+	section p strong {
+		font: 700 .8rem/.8rem "futura-pt-bold", sans-serif;
+		letter-spacing: .1rem;
+		text-transform: uppercase;
+	}
+
+	section#bio p a {
+		font: 700 1.1rem/1.7rem "futura-pt", sans-serif;
+		letter-spacing: .0;
+		text-transform: none;
+	}
+
+	section#bio { 
+		margin:  0 0 10rem 0;
+		width: 70%; 
+	}
+
+	figure a:hover { opacity: 15%; }
+
+/* SECTION -- FOOTER */
+
+	footer {
+		border-top: 4px solid black; 
+		margin-bottom: 10rem;
+		display: grid;
+		grid-template-columns: 50% 50%;
+		padding: 1rem 0 0;
+	}
+
+	footer .social a {
+		color: black;
+		font-size: 150%;
+		margin: 0 5px 20px;
+	}
+
+	footer .social a:hover { color: silver; }
+
+	.arashikage {
+		font-size: 200%;
+		line-height: 1.8rem;
+		text-align: right;
+	}
+
+/* WEE SCREENS */
+
+		@media (min-width: 801px) and (max-width: 1000px) {
+
+
+		}
+
+		@media (min-width: 100px) and (max-width: 800px) {
+
+			body {
+				padding: 1rem;
+			}
+
+			h1,
+			h2 {
+				font: 900 4rem/2.875rem "dharma-gothic-c", sans-serif;
+				padding: 2rem 0;
+		  	}
+
+			section {
+				margin:  0 auto 6rem;
+			}
+
+			section ul {
+			    display: block;
+			}
+
+			section ul li {
+				border: 1px solid Gainsboro;
+				padding: 1rem;
+			}
+
+			section ul.logos li {
+			    display: block;
+			   	padding: 2rem;
+			}
+
+			section ul.logos li figure {
+				margin: 1rem 0 2rem 1rem;
+				width: 35%;
+			}
+
+			section p,
+			section aside {
+				font: 400 1.3rem/2rem "futura-pt", sans-serif;
+			}
+
+			section p a,
+			section aside strong {
+				font: 700 1rem/2rem "futura-pt-bold", sans-serif;
+			}
+
+			footer {
+				margin-bottom: 2rem;
+			}
+				
+		}
+
+
+/* 2021 */
+
+	
