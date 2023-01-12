@@ -183,12 +183,12 @@ body {
 	}
 
 h1 {  
- 		font: 500 italic 1.5rem/2rem "swear-display", serif;
-		padding: 2rem 2rem 4rem;
+ 		font: 500 italic 1.2rem/2rem "swear-display", serif;
+		padding: 1rem 1rem 4rem;
 	}
 
 	h1 em {  
- 		font: 600 normal 1.3rem/2rem "neue-haas-unica", sans-serif;
+ 		font: 600 normal 1.2rem/2rem "neue-haas-unica", sans-serif;
 	}
 
 	header {
@@ -199,7 +199,7 @@ h1 {
 
 section#newnew ul {
 	    display: block;
-	    margin-bottom: 2rem;
+	    margin-bottom: 4rem;
 	}
 
 		
