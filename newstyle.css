@@ -68,7 +68,7 @@ website: 	http://blankenship.xyz
 
 	header {
 		margin: 0 auto;
-		padding: 0;
+		padding: 0 6rem;
 	}
 
 /* TYPOGRAPHY */
@@ -92,6 +92,7 @@ website: 	http://blankenship.xyz
 	h1 em {  
  		font: 600 normal 1.8rem/2.5rem "neue-haas-unica", sans-serif;
  		letter-spacing: -0.035rem;
+ 		display: block;
 	}
 
 	a { 
@@ -177,53 +178,7 @@ website: 	http://blankenship.xyz
 
 		@media (min-width: 100px) and (max-width: 800px) {
 
-			body {
-				padding: 1rem;
-			}
-
-			h1,
-			h2 {
-				font: 900 4rem/2.875rem "dharma-gothic-c", sans-serif;
-				padding: 2rem 0;
-		  	}
-
-			section {
-				margin:  0 auto 6rem;
-			}
-
-			section ul {
-			    display: block;
-			}
-
-			section ul li {
-				border: 1px solid Gainsboro;
-				padding: 1rem;
-			}
-
-			section ul.logos li {
-			    display: block;
-			   	padding: 2rem;
-			}
-
-			section ul.logos li figure {
-				margin: 1rem 0 2rem 1rem;
-				width: 35%;
-			}
-
-			section p,
-			section aside {
-				font: 400 1.3rem/2rem "futura-pt", sans-serif;
-			}
-
-			section p a,
-			section aside strong {
-				font: 700 1rem/2rem "futura-pt-bold", sans-serif;
-			}
-
-			footer {
-				margin-bottom: 2rem;
-			}
-				
+		
 		}
 
 
