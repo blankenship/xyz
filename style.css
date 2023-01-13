@@ -167,12 +167,8 @@ website: 	http://blankenship.xyz
 
 /* WEE SCREENS */
 
-		@media (min-width: 801px) and (max-width: 1000px) {
 
-
-		}
-
-		@media (min-width: 100px) and (max-width: 800px) {
+		@media (min-width: 100px) and (max-width: 1000px) {
 
 body {
 		padding: 2rem;
