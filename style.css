@@ -3,7 +3,7 @@
 Styles:		blankenship.xyz
 
 origin: 	1.0 — 12/10/19
-version: 	12.0 — 10/10/21 Update
+version: 	3.0 — 01/12/23 Update
 author: 	Joshua Blankenship
 email: 		joshua@blankenship.xyz
 website: 	http://blankenship.xyz
@@ -24,11 +24,6 @@ website: 	http://blankenship.xyz
 		padding: 0;
 		outline: none;
 		}
-
-	@keyframes hello {
-		from { opacity: 0; }
-		to   { opacity: 1; }
-	}
 
 	* {
 		margin: 0;
@@ -69,6 +64,7 @@ website: 	http://blankenship.xyz
 	header {
 		margin: 0 auto;
 		padding: 0 6rem;
+		width: 50%;
 	}
 
 /* TYPOGRAPHY */
@@ -86,7 +82,7 @@ website: 	http://blankenship.xyz
   	h1 {  
  		font: 500 italic 2rem/2.5rem "swear-display", serif;
 		text-align: center;
-		padding: 2rem 10rem 4rem;
+		padding: 2rem 0 4rem;
 	}
 
 	h1 em {  
