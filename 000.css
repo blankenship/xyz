@@ -72,25 +72,31 @@ website: 	http://blankenship.xyz
 		padding: 0;
 	}
 
+	nav ul { 
+	display: grid:
+	grid-template-columns: 25% 25% 25% 25%;
+	text-align: center;
+	padding: 1rem 0;
+	}
+
 /* TYPOGRAPHY */
 
 	ul {
 	    list-style-type: none;
 	}
 
-	h1,
-	h2 {
+	h2,
+	nav ul li  {
 		font: 700 1rem/1rem "futura-pt-bold", sans-serif;
 		letter-spacing: .2rem;
 		text-transform: uppercase;
 		text-align: center;
 	}
 
-	h1 span {
+	h1  {
 		color: black;
 		display: block;
-		font: 900 20rem/2rem "dharma-gothic-c", sans-serif;
-		padding: 1rem 0 2rem;
+		font: 900 20rem/3rem "dharma-gothic-c", sans-serif;
 		text-align: center;
 		text-transform: uppercase;
   	}
