@@ -76,10 +76,12 @@ website: 	http://blankenship.xyz
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	text-align: center;
-	padding: 2rem 0;
+	padding: 3rem 0 1rem;
 	}
 
-	header figure { margin-top: -10rem; }
+	header figure {
+		margin: -8rem auto 4rem;
+	}
 
 /* TYPOGRAPHY */
 
@@ -87,7 +89,6 @@ website: 	http://blankenship.xyz
 	    list-style-type: none;
 	}
 
-	h2,
 	nav ul li  {
 		font: 700 1rem/1rem "futura-pt-bold", sans-serif;
 		letter-spacing: .2rem;
@@ -101,6 +102,10 @@ website: 	http://blankenship.xyz
 		font: 900 20rem/20rem "dharma-gothic-c", sans-serif;
 		text-align: center;
 		text-transform: uppercase;
+  	}
+
+  	h2 {
+  		font: 500 italic 2rem/2.5rem "swear-display", serif;
   	}
 
 	a { 
