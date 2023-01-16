@@ -80,12 +80,15 @@ website: 	http://blankenship.xyz
 
 	h1,
 	h2 {
-		border-top: 12px solid black; 
+		font: 700 1rem/1rem "futura-pt-bold", sans-serif;
+	}
+
+	h1 span {
 		color: black;
 		display: block;
 		font: 900 8rem/5.75rem "dharma-gothic-c", sans-serif;
 		padding: 4rem 0;
-		text-align: left;
+		text-align: center;
 		text-transform: uppercase;
   	}
 
