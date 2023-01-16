@@ -81,13 +81,16 @@ website: 	http://blankenship.xyz
 	h1,
 	h2 {
 		font: 700 1rem/1rem "futura-pt-bold", sans-serif;
+		letter-spacing: .2rem;
+		text-transform: uppercase;
+		text-align: center;
 	}
 
 	h1 span {
 		color: black;
 		display: block;
-		font: 900 8rem/5.75rem "dharma-gothic-c", sans-serif;
-		padding: 4rem 0;
+		font: 900 20rem/2rem "dharma-gothic-c", sans-serif;
+		padding: 1rem 0 2rem;
 		text-align: center;
 		text-transform: uppercase;
   	}
