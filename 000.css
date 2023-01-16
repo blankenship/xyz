@@ -63,7 +63,7 @@ website: 	http://blankenship.xyz
 		line-height: 1.5;
 		background: white;
 		margin:  0 auto;
-		padding: 2.5rem 10rem;
+		padding: 0 10rem;
 		max-width: 1500px;
 	}
 
@@ -73,7 +73,7 @@ website: 	http://blankenship.xyz
 	}
 
 	nav ul { 
-	display: grid:
+	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	text-align: center;
 	padding: 1rem 0;
@@ -96,7 +96,7 @@ website: 	http://blankenship.xyz
 	h1  {
 		color: black;
 		display: block;
-		font: 900 20rem/3rem "dharma-gothic-c", sans-serif;
+		font: 900 20rem/20rem "dharma-gothic-c", sans-serif;
 		text-align: center;
 		text-transform: uppercase;
   	}
