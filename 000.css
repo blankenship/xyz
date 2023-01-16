@@ -105,7 +105,13 @@ website: 	http://blankenship.xyz
   	}
 
   	h2 {
-  		font: 500 italic 2rem/2.5rem "swear-display", serif;
+  		font: 500 2rem/2.5rem "swear-display", serif;
+  		margin-bottom: 2.5rem;
+  	}
+
+	h2 a {
+		font: 900 2rem/2.5rem "dharma-gothic-c", sans-serif;
+		text-transform: uppercase;
   	}
 
 	a { 
