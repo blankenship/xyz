@@ -86,7 +86,7 @@ website: 	http://blankenship.xyz
 	header section {
 		margin: 4rem auto;
 	}
-	
+
 /* TYPOGRAPHY */
 
 	ul {
@@ -114,13 +114,13 @@ website: 	http://blankenship.xyz
   	}
 
 	h2 a {
-		font: 100 2.5rem/2.5rem "dharma-gothic-c", sans-serif;
+		font: 700 2.5rem/2.5rem "futura-pt-bold", sans-serif;
 		letter-spacing: .25rem;
 		text-transform: uppercase;
 		background-color: rgba(255, 224, 0, 0.7);
 		opacity: 1;
 		display: inline;
-		padding: 0.2rem 0.1rem;
+		padding: 0.2rem .2rem .1rem;
 		box-decoration-break: clone;
   	}
 
