@@ -76,10 +76,10 @@ website: 	http://blankenship.xyz
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	text-align: center;
-	padding: 1rem 0;
+	padding: 2rem 0;
 	}
 
-	header figure { margin-top: -5rem; }
+	header figure { margin-top: -10rem; }
 
 /* TYPOGRAPHY */
 
