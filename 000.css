@@ -79,6 +79,8 @@ website: 	http://blankenship.xyz
 	padding: 1rem 0;
 	}
 
+	header figure { margin-top: -5rem; }
+
 /* TYPOGRAPHY */
 
 	ul {
