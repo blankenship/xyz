@@ -83,6 +83,7 @@ website: 	http://blankenship.xyz
 		margin: -8rem auto 1rem;
 	}
 
+	header figure img { width: 100%; }
 	header section {
 		margin: 4rem auto;
 	}
