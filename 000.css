@@ -101,6 +101,11 @@ website: 	http://blankenship.xyz
 		text-align: center;
 	}
 
+	nav ul li.aqui  {
+		color: #999;
+		border-bottom: 3pox solid #999;
+	}
+
 	h1  {
 		color: black;
 		display: block;
