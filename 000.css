@@ -95,7 +95,7 @@ website: 	http://blankenship.xyz
 	}
 
 	nav ul li  {
-		color: #999;
+		color: tomato;
 		font: 700 1rem/1rem "futura-pt-bold", sans-serif;
 		letter-spacing: .2rem;
 		text-transform: uppercase;
@@ -104,7 +104,6 @@ website: 	http://blankenship.xyz
 
 	nav ul li.aqui  {
 		color: #000;
-		border-bottom: 3px solid #000;
 	}
 
 	h1  {
