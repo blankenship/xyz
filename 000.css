@@ -80,19 +80,19 @@ website: 	http://blankenship.xyz
 	}
 
 	header figure {
-		display: relative;
+		display: block;
 		margin: 1rem auto 0;
 		z-index: -1;
 	}
 
 	header figure img { 
-		display: relative;
+		display: block;
 		width: 100%; 
 		z-index: inherit;
 	}
 	
 	header section {
-		display: relative;
+		display: block;
 		margin: 0 auto 4rem;
    		z-index: 1;
 	}
