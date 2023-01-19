@@ -81,7 +81,7 @@ website: 	http://blankenship.xyz
 	header figure {
 		position: relative;
 		margin: 2rem auto 0;
-		z-index: -1;
+		z-index: 0;
 	}
 
 	header figure img { 
@@ -94,6 +94,8 @@ website: 	http://blankenship.xyz
 		background: tomato;
 		margin: -3rem auto 4rem;
 		padding-bottom: 4rem;
+		position: relative;
+		z-index: -1;
 	}
 
 /* TYPOGRAPHY */
@@ -145,7 +147,8 @@ website: 	http://blankenship.xyz
   		margin-left: -3px;
   		padding-right: .2rem;
    		position: relative;
- 		z-index: 1; 	}
+ 		z-index: 1; 	
+ 	}
 
 	a { 
 		color: black;
