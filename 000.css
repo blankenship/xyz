@@ -69,14 +69,14 @@ website: 	http://blankenship.xyz
 
 	header {
 		margin: 0 auto;
-		padding: 0;
+		padding: 2rem 0 0 0;
 	}
 
 	nav ul { 
 	display: grid;
 	grid-template-columns: 25% 25% 25% 25%;
 	text-align: center;
-	padding: 3rem 0 1rem;
+	padding: 1rem 0;
 	}
 
 	header figure {
