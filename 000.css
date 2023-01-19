@@ -80,7 +80,7 @@ website: 	http://blankenship.xyz
 
 	header figure {
 		position: relative;
-		margin: 1rem auto 0;
+		margin: 2rem auto 0;
 		z-index: -1;
 	}
 
@@ -91,7 +91,7 @@ website: 	http://blankenship.xyz
 	}
 	
 	section {
-		background: goldenrod;
+		background: tomato;
 		position: relative;
 		margin: -1rem auto 4rem;
    		z-index: 1;
@@ -133,7 +133,7 @@ website: 	http://blankenship.xyz
 		font: 700 1.25rem/2.25rem "futura-pt-bold", sans-serif;
 		letter-spacing: .2rem;
 		text-transform: uppercase;
-		background-color: rgba(255, 99, 71, 1.0);
+		background-color: rgba(255, 99, 71, .5);
 		opacity: 1;
 		display: inline;
 		padding: 0.2rem .4rem .225rem;
