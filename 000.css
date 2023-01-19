@@ -92,6 +92,7 @@ website: 	http://blankenship.xyz
 	}
 	
 	header section {
+		background: goldenrod;
 		display: block;
 		margin: 0 auto 4rem;
    		z-index: 1;
