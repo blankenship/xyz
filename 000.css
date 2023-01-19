@@ -84,8 +84,9 @@ website: 	http://blankenship.xyz
 	}
 
 	header figure img { width: 100%; }
+	
 	header section {
-		margin: 4rem auto;
+		margin: 4rem auto 4rem;
 	}
 
 /* TYPOGRAPHY */
@@ -123,7 +124,7 @@ website: 	http://blankenship.xyz
 		font: 700 1.25rem/2.25rem "futura-pt-bold", sans-serif;
 		letter-spacing: .25rem;
 		text-transform: uppercase;
-		background-color: rgba(255, 224, 0, 0.7);
+		background-color: rgba(255, 99, 71, 0.5);
 		opacity: 1;
 		display: inline;
 		padding: 0.2rem .4rem .1rem;
