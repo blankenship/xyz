@@ -80,21 +80,21 @@ website: 	http://blankenship.xyz
 	}
 
 	header figure {
-		display: block;
+		position: relative;
 		margin: 1rem auto 0;
 		z-index: -1;
 	}
 
 	header figure img { 
-		display: block;
+		position: relative;
 		width: 100%; 
 		z-index: inherit;
 	}
 	
-	header section {
+	section {
 		background: goldenrod;
-		display: block;
-		margin: 0 auto 4rem;
+		position: relative;
+		margin: -1rem auto 4rem;
    		z-index: 1;
 	}
 
@@ -155,87 +155,6 @@ website: 	http://blankenship.xyz
 	a:hover { 
 		color: silver;	
 	}
-
-	.highlight {
-		background-color: rgba(255, 99, 71, 0.5);
-		opacity: 1;
-		display: inline;
-		padding: 0.2rem 0.1rem;
-		box-decoration-break: clone;
-	}
-
-	a.highlight:hover  {
-		background-color: silver;
-		color: black;
-	}
-
-	.headshot { 
-		border-radius: 50%; 
-	}
-
-	img.headshot { filter: grayscale(0%); }
-
-	
-
-
-/* SECTION -- DEM GRIDS */
-
-	section {
-		margin:  0 auto 10rem;
-	}
-
-	section ul {
-	    border:  1px solid Gainsboro;
-	    display: grid;
-	    grid-template-columns: 50% 50%;
-	    list-style-type: none;
-	}
-
-	section ul li {
-		border: 1px solid Gainsboro;
-		padding: 10%;
-	}
-
-	section ul.logos li {
-	    display: grid;
-	    grid-template-columns: 22% 65%;
-	    grid-gap: 13%;	
-	}
-
-	section figure img { 
-		display: block;
-		width: 100%;
-	 }
-
-	section p,
-	section aside {
-		font: 400 1.1rem/1.7rem "futura-pt", sans-serif;
-	}
-
-	section aside {
-		margin-top:  1rem;
-	}
-
-	section p a,
-	section aside strong,
-	section p strong {
-		font: 700 .8rem/.8rem "futura-pt-bold", sans-serif;
-		letter-spacing: .1rem;
-		text-transform: uppercase;
-	}
-
-	section#bio p a {
-		font: 700 1.1rem/1.7rem "futura-pt", sans-serif;
-		letter-spacing: .0;
-		text-transform: none;
-	}
-
-	section#bio { 
-		margin:  0 0 10rem 0;
-		width: 70%; 
-	}
-
-	figure a:hover { opacity: 15%; }
 
 /* SECTION -- FOOTER */
 
