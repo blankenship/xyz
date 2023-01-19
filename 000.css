@@ -64,12 +64,12 @@ website: 	http://blankenship.xyz
 		background: white;
 		margin:  0 auto;
 		padding: 0 10rem;
-		max-width: 1500px;
 	}
 
 	header {
 		margin: 0 auto;
 		padding: 2rem 0 0 0;
+		max-width: 1200px;
 	}
 
 	nav ul { 
@@ -127,7 +127,8 @@ website: 	http://blankenship.xyz
   	h2 {
   		font: 500 1.75rem/2.25rem "swear-display", serif;
   		margin-bottom: 2.25rem;
- 	}
+ 		max-width: 1200px;
+	}
 
 	h2 a {
 		font: 700 1.25rem/2.25rem "futura-pt-bold", sans-serif;
