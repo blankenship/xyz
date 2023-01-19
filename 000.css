@@ -115,18 +115,18 @@ website: 	http://blankenship.xyz
   	}
 
   	h2 {
-  		font: 500 2rem/2.5rem "swear-display", serif;
-  		margin-bottom: 2.5rem;
+  		font: 500 1.85rem/2.25rem "swear-display", serif;
+  		margin-bottom: 2.25rem;
   	}
 
 	h2 a {
-		font: 700 1.5rem/2.5rem "futura-pt-bold", sans-serif;
+		font: 700 1.25rem/2.25rem "futura-pt-bold", sans-serif;
 		letter-spacing: .25rem;
 		text-transform: uppercase;
 		background-color: rgba(255, 224, 0, 0.7);
 		opacity: 1;
 		display: inline;
-		padding: 0.2rem .2rem .1rem;
+		padding: 0.2rem .4rem .1rem;
 		box-decoration-break: clone;
   	}
 
