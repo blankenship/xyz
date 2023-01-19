@@ -85,10 +85,12 @@ website: 	http://blankenship.xyz
 	}
 
 	header figure img { 
+		display: relative;
 		width: 100%; 
-}
+	}
 	
 	header section {
+		display: relative;
 		margin: 0 auto 4rem;
    		z-index: 2;
 	}
