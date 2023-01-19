@@ -142,6 +142,7 @@ website: 	http://blankenship.xyz
   	}
 
   	h2 span {
+  		color: #fff;
   		font: 900 20rem/2.25rem "dharma-gothic-c", sans-serif;
   		text-transform: uppercase;
   		margin-left: -3px;
