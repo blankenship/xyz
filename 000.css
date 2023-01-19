@@ -126,7 +126,7 @@ website: 	http://blankenship.xyz
 
   	h2 {
   		font: 500 1.75rem/2.25rem "swear-display", serif;
-  		margin-bottom: 2.25rem;
+  		margin: -2rem auto 2.25rem;
  		max-width: 1200px;
 	}
 
