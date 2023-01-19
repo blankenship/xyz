@@ -81,6 +81,7 @@ website: 	http://blankenship.xyz
 
 	header figure {
 		margin: 1rem auto;
+		z-index: 1;
 	}
 
 	header figure img { width: 100%; }
@@ -116,15 +117,15 @@ website: 	http://blankenship.xyz
   	}
 
   	h2 {
-  		font: 500 1.85rem/2.25rem "swear-display", serif;
+  		font: 500 1.75rem/2.25rem "swear-display", serif;
   		margin-bottom: 2.25rem;
   	}
 
 	h2 a {
-		font: 700 1.25rem/2.25rem "futura-pt-bold", sans-serif;
+		font: 700 1rem/2.25rem "futura-pt-bold", sans-serif;
 		letter-spacing: .25rem;
 		text-transform: uppercase;
-		background-color: rgba(255, 99, 71, 0.5);
+		background-color: rgba(255, 99, 71, 1.0);
 		opacity: 1;
 		display: inline;
 		padding: 0.2rem .4rem .1rem;
@@ -132,9 +133,10 @@ website: 	http://blankenship.xyz
   	}
 
   	h2 span {
-  		color: tomato;
   		font: 900 20rem/2.25rem "dharma-gothic-c", sans-serif;
   		text-transform: uppercase;
+  		margin-left: -3px;
+  		z-index: 2;
   	}
 
 	a { 
