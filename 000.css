@@ -81,15 +81,16 @@ website: 	http://blankenship.xyz
 
 	header figure {
 		margin: 1rem auto 0;
+		z-index: 1;
 	}
 
 	header figure img { 
 		width: 100%; 
-		z-index: 1;
 }
 	
 	header section {
 		margin: 0 auto 4rem;
+   		z-index: 2;
 	}
 
 /* TYPOGRAPHY */
@@ -121,7 +122,6 @@ website: 	http://blankenship.xyz
   	h2 {
   		font: 500 1.75rem/2.25rem "swear-display", serif;
   		margin-bottom: 2.25rem;
-   		z-index: 2;
  	}
 
 	h2 a {
