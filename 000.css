@@ -68,7 +68,7 @@ website: 	http://blankenship.xyz
 	header {
 		margin: 0 auto;
 		padding: 2rem 0 0 0;
-		max-width: 1200px;
+		max-width: 1000px;
 	}
 
 	nav ul { 
@@ -92,7 +92,7 @@ website: 	http://blankenship.xyz
 	
 	section {
 		background: tomato;
-		margin: 0 auto 4rem;
+		margin: -2rem auto 4rem;
 		padding-bottom: 4rem;
 		position: relative;
 		z-index: 1;
@@ -127,7 +127,7 @@ website: 	http://blankenship.xyz
   	h2 {
   		font: 500 1.5rem/2rem "swear-display", serif;
   		margin: 0 auto 2rem;
- 		max-width: 1200px;
+ 		max-width: 1000px;
 	}
 
 	h2 a {
@@ -145,7 +145,7 @@ website: 	http://blankenship.xyz
   		color: #fff;
   		font: 900 20rem/2.25rem "dharma-gothic-c", sans-serif;
   		text-transform: uppercase;
-  		margin-left: -3px;
+  		margin-left: -4px;
   		padding-right: .2rem;
    		position: relative;
  		z-index: 1; 	
@@ -168,7 +168,7 @@ website: 	http://blankenship.xyz
 		display: grid;
 		grid-template-columns: 50% 50%;
 		margin: 0 auto;
-		max-width: 1200px;
+		max-width: 1000px;
 	}
 
 	footer .social a {
