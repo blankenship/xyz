@@ -92,7 +92,7 @@ website: 	http://blankenship.xyz
 	
 	section {
 		background: tomato;
-		margin: -2rem auto 4rem;
+		margin: -4rem auto 4rem;
 		padding-bottom: 4rem;
 		position: relative;
 		z-index: 1;
@@ -134,7 +134,7 @@ website: 	http://blankenship.xyz
 		font: 700 1.1rem/2rem "futura-pt-bold", sans-serif;
 		letter-spacing: .2rem;
 		text-transform: uppercase;
-		background-color: rgba(255, 255, 255, .15);
+		background-color: rgba(255, 255, 255, 1.0);
 		opacity: 1;
 		display: inline;
 		padding: 0.2rem .4rem .225rem;
