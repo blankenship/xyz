@@ -175,13 +175,11 @@ website: 	http://blankenship.xyz
 		max-width: 1000px;
 	}
 
-	footer .social a {
-		color: black;
-		font-size: 150%;
-		margin: 0 5px 20px;
+	footer span {
+		font: 700 1.1rem/2rem "futura-pt-bold", sans-serif;
+		letter-spacing: .2rem;
+		text-transform: uppercase;
 	}
-
-	footer .social a:hover { color: silver; }
 
 	.JB {
 		font-size: 200%;
