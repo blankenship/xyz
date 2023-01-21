@@ -163,6 +163,35 @@ website: 	http://blankenship.xyz
 
 /* SECTION -- FOOTER */
 
+	.jb {
+		display:grid;
+		grid-template-columns: 32% 32% 32%;
+		grid-gap: 2%;
+	}
+
+	.jb.circle {
+		padding-top: 100px;
+		width: 100px;
+  		height: 100px;
+  		background: red;
+  		border-radius: 50%
+	}
+
+	.jb.rectangle {
+		width: 100px;
+  		height: 200px;
+  		background: red;
+	}
+
+	.jb.circles {
+		width: 100px;
+  		height: 100px;
+  		background: red;
+  		border-radius: 50%
+	}
+
+/* SECTION -- FOOTER */
+
 	footer {
 		margin-bottom: 2rem;
 		display: grid;
