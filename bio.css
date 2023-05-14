@@ -1,0 +1,30 @@
+/* 
+
+Styles:		blankenship.xyz
+
+origin: 	1.0 — 12/10/19
+version: 	3.0 — 01/12/23 Update
+author: 	Joshua Blankenship
+email: 		joshua@blankenship.xyz
+website: 	http://blankenship.xyz
+          
+
+*/
+
+#bio p span {
+	display: inline-block;
+	background: #ddd;
+	border-radius: 2px;
+	padding: 1rem;
+	font: 600 .6rem/.6rem "neue-haas-unica", sans-serif;
+		letter-spacing: .015rem;
+	text-transform: uppercase;	
+}
+
+#bio p span#tbd {
+	background: goldernrod;
+}
+
+#bio p span#forsale {
+	background: tomato;
+}
