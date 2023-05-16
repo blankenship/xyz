@@ -12,42 +12,29 @@ website: 	http://blankenship.xyz
 */
 
 
-#bio ul {
+#urls ul {
 	border-top: 1px solid #ddd;
 }
 
-#bio li {
+#urls li {
 	border-bottom: 1px solid #ddd;
 	font: 600 1.5rem/1.5rem "neue-haas-unica", sans-serif;
 	letter-spacing: -0.015rem;
 	padding: 1rem;
 }
 
-#bio li span {
+#urls li span {
+	color: #fff;
 	display: inline-block;
-	border-radius: 3px;
+	border-radius: 2px;
 	font: 100 1.5rem/1.5rem "neue-haas-unica", sans-serif;
-	padding: .25rem 0;
+	margin-left: 1rem;
+	padding: 0 .25rem;
 }
 
-#bio li span.cs {
-	background: goldenrod;
-	color: #fff;
-}
-
-#bio li span.forsale {
-	background: tomato;
-	color: #fff;
-}
-
-#bio li span.tbd {
-	background: cornflowerblue;
-	color: #fff;
-}
-
-#bio li span.idea {
-	background: mediumseagreen;
-	color: #fff;
-}
+#urls li span.cs 		{ background: goldenrod; }
+#urls li span.forsale 	{ background: tomato; }
+#urls li span.idea 		{ background: mediumseagreen; }
+#urls li span.tbd 		{ background: cornflowerblue; }
 
 
