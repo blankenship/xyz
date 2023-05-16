@@ -64,7 +64,9 @@ website: 	http://blankenship.xyz
 
 	#urls li {
 		display: block;
-	}	
+		font: 600 1.25rem/1.25rem "neue-haas-unica", sans-serif;
+		margin: 0 auto 1rem;
+		}	
 
 }
 
