@@ -45,12 +45,12 @@ website: 	http://blankenship.xyz
 @media (min-width: 100px) and (max-width: 1000px) {
 
 	body {
-			padding: 2rem;
+			padding: 2rem .5rem;
 		}
 
 	h1 {  
 	 		font: 500 italic 1.2rem/1.6rem "swear-display", serif;
-			padding: 1rem 1rem 4rem;
+			padding: 1rem .5rem 4rem;
 		}
 
 		h1 em {  
