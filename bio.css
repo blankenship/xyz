@@ -1,6 +1,6 @@
 /* 
 
-Styles:		blankenship.xyz
+Styles:		blankenship.xyz/urls
 
 origin: 	1.0 — 12/10/19
 version: 	3.0 — 01/12/23 Update
@@ -11,14 +11,23 @@ website: 	http://blankenship.xyz
 
 */
 
+
+#bio ul {
+	border-top: 1px solid #ddd;
+}
+
+#bio li {
+	border-bottom: 1px solid #ddd;
+	font: 600 1.5rem/1.5rem "neue-haas-unica", sans-serif;
+	letter-spacing: -0.015rem;
+	padding: 1rem;
+}
+
 #bio li span {
 	display: inline-block;
-	background: #ddd;
 	border-radius: 3px;
-	font: 600 .5rem/1.3rem "neue-haas-unica", sans-serif;
-	letter-spacing: .015rem;
+	font: 100 1.5rem/1.5rem "neue-haas-unica", sans-serif;
 	padding: .25rem .5rem;
-	text-transform: uppercase;	
 }
 
 #bio li span.cs {
@@ -36,13 +45,4 @@ website: 	http://blankenship.xyz
 	color: #fff;
 }
 
-#bio ul {
-	border-top: 1px solid #ddd;
-}
 
-#bio li {
-	border-bottom: 1px solid #ddd;
-	font: 600 1.5rem/1.5rem "neue-haas-unica", sans-serif;
-	letter-spacing: -0.015rem;
-	padding: 1rem;
-}
