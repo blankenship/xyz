@@ -19,7 +19,7 @@ website: 	http://blankenship.xyz
 	display: inline-block;
 	font: 600 1.5rem/1.5rem "neue-haas-unica", sans-serif;
 	letter-spacing: -0.015rem;
-	margin: 0 2rem 1rem;
+	margin: 0 1rem 1rem;
 	padding: 1rem;
 }
 
@@ -31,7 +31,7 @@ website: 	http://blankenship.xyz
 	text-transform: uppercase;
 }
 
-#urls li.tag 		{ background: black; color: white; }
+#urls li.tag 		{ background: black; color: rgba(255,255,255,.5); }
 #urls li.con 		{ background: goldenrod; }
 #urls li.forsale 	{ background: mediumseagreen; }
 #urls li.idea 		{ background: tomato; }
