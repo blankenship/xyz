@@ -11,7 +11,7 @@ website: 	http://blankenship.xyz
 
 */
 
-#bio p span {
+#bio li span {
 	display: inline-block;
 	background: #ddd;
 	border-radius: 3px;
@@ -21,17 +21,26 @@ website: 	http://blankenship.xyz
 	text-transform: uppercase;	
 }
 
-#bio p span.cs {
+#bio li span.cs {
 	background: goldenrod;
 	color: #fff;
 }
 
-#bio p span.forsale {
+#bio li span.forsale {
 	background: tomato;
 	color: #fff;
 }
 
-#bio p span.tbd {
+#bio li span.tbd {
 	background: rebeccapurple;
 	color: #fff;
+}
+
+#bio ul {
+	border-top: 1px solid #ddd;
+}
+
+#bio li {
+	border-bottom: 1px solid #ddd;
+	padding: 1rem;
 }
