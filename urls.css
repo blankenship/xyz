@@ -18,6 +18,7 @@ website: 	http://blankenship.xyz
 
 #urls li {
 	border-bottom: 1px solid #ddd;
+	display: inline-block;
 	font: 600 1.5rem/1.5rem "neue-haas-unica", sans-serif;
 	letter-spacing: -0.015rem;
 	padding: 1rem;
@@ -28,11 +29,11 @@ website: 	http://blankenship.xyz
 	display: inline-block;
 	border-radius: 2px;
 	font: 100 1.5rem/1.5rem "neue-haas-unica", sans-serif;
-	margin-left: 1rem;
-	padding: 0 .25rem;
+	margin-right: 1rem;
+	padding: 1rem;
 }
 
-#urls li span.cs 		{ background: goldenrod; }
+#urls li span.con 		{ background: goldenrod; }
 #urls li span.forsale 	{ background: tomato; }
 #urls li span.idea 		{ background: mediumseagreen; }
 #urls li span.tbd 		{ background: cornflowerblue; }
