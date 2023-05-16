@@ -16,8 +16,6 @@ website: 	http://blankenship.xyz
 }
 
 #urls li {
-	background: black;
-	color: white;
 	display: inline-block;
 	font: 600 1.5rem/1.5rem "neue-haas-unica", sans-serif;
 	letter-spacing: -0.015rem;
@@ -27,9 +25,9 @@ website: 	http://blankenship.xyz
 
 #urls li span {
 	display: inline-block;
-	font: 100 .75rem/1.5rem "neue-haas-unica", sans-serif;
+	font: 400 .5rem/.5rem "neue-haas-unica", sans-serif;
 	margin-right: 1rem;
-	letter-spacing: .25rem;
+	letter-spacing: .125rem;
 	text-transform: uppercase;
 }
 
