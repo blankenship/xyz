@@ -41,7 +41,12 @@ website: 	http://blankenship.xyz
 }
 
 #bio li span.tbd {
-	background: rebeccapurple;
+	background: cornflowerblue;
+	color: #fff;
+}
+
+#bio li span.idea {
+	background: mediumseagreen;
 	color: #fff;
 }
 
