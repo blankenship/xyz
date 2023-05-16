@@ -11,23 +11,24 @@ website: 	http://blankenship.xyz
 
 */
 
-
-#urls ul {
-	border-top: 1px solid #ddd;
+#urls {
+	text-align: center;
 }
 
 #urls li {
-	border-bottom: 1px solid #ddd;
 	display: inline-block;
 	font: 600 1.5rem/1.5rem "neue-haas-unica", sans-serif;
 	letter-spacing: -0.015rem;
+	margin: 0 2rem;
 	padding: 1rem;
 }
 
 #urls li span {
 	display: inline-block;
-	font: 100 1.5rem/1.5rem "neue-haas-unica", sans-serif;
+	font: 100 1rem/1.5rem "neue-haas-unica", sans-serif;
 	margin-right: 1rem;
+	letter-spacing: .5rem;
+	text-transform: uppercase;
 }
 
 #urls li.tag {
